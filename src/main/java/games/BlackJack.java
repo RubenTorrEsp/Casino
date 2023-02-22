@@ -8,7 +8,5 @@ public class BlackJack {
 
     }
 
-    public Integer carta;
-    public List<Integer> baraja;
 
 }
