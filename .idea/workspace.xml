@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e926a721-1e80-4da7-b754-441884e1f532" name="Changes" comment="Modificación del Main para pruebas (no relevante)">
+    <list default="true" id="e926a721-1e80-4da7-b754-441884e1f532" name="Changes" comment="Creación de la baraja española">
+      <change afterPath="$PROJECT_DIR$/src/main/java/elements/FrenchDeck.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/elements/SpanishDeck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/elements/SpanishDeck.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/games/BlackJack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/games/BlackJack.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/main/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -101,7 +100,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677094679855</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Creación de la baraja española">
+      <created>1677181441662</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1677181441662</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -122,6 +128,7 @@
     <MESSAGE value="Creación del juego BlackJack." />
     <MESSAGE value="Creación del objeto Dado" />
     <MESSAGE value="Modificación del Main para pruebas (no relevante)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Modificación del Main para pruebas (no relevante)" />
+    <MESSAGE value="Creación de la baraja española" />
+    <option name="LAST_COMMIT_MESSAGE" value="Creación de la baraja española" />
   </component>
 </project>
