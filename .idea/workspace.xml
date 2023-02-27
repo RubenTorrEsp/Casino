@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e926a721-1e80-4da7-b754-441884e1f532" name="Changes" comment="Modificación del Main. Pruebas">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/elements/FrenchDeck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/elements/FrenchDeck.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/elements/SpanishDeck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/elements/SpanishDeck.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/main/Main.java" afterDir="false" />
-    </list>
+    <list default="true" id="e926a721-1e80-4da7-b754-441884e1f532" name="Changes" comment="Modificacion del main" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -122,7 +117,28 @@
       <option name="project" value="LOCAL" />
       <updated>1677183046607</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Creación de metodos de valor de carta en la baraja francesa">
+      <created>1677493161353</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1677493161353</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Creación de metodos de valor de carta en la baraja española">
+      <created>1677493180336</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1677493180336</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Modificacion del main">
+      <created>1677493195196</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1677493195196</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -146,6 +162,9 @@
     <MESSAGE value="Creación de la baraja española" />
     <MESSAGE value="Creación de la baraja francesa" />
     <MESSAGE value="Modificación del Main. Pruebas" />
-    <option name="LAST_COMMIT_MESSAGE" value="Modificación del Main. Pruebas" />
+    <MESSAGE value="Creación de metodos de valor de carta en la baraja francesa" />
+    <MESSAGE value="Creación de metodos de valor de carta en la baraja española" />
+    <MESSAGE value="Modificacion del main" />
+    <option name="LAST_COMMIT_MESSAGE" value="Modificacion del main" />
   </component>
 </project>
