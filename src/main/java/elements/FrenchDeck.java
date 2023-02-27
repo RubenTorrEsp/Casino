@@ -11,8 +11,6 @@ public class FrenchDeck {
         createDeck();
     }
 
-
-
     public void createDeck(){
         int index = 0;
 
@@ -30,5 +28,33 @@ public class FrenchDeck {
         String card = deck[position];
         return card;
     }
+
+    public int getValue(String card) {
+        int index = 0;
+        for(String object:deck){
+            index++;
+            if (object.equalsIgnoreCase(card)) {
+                int value = index%13;
+                if (value==0) value=13;
+                System.out.println("El valor de la carta es "+value);
+            }
+        }
+        return index;
+    }
+
+    public int getValueCourtCards(String card) {
+        int index = 0;
+        int value = 0;
+        for(String object:deck){
+            index++;
+            if (object.equalsIgnoreCase(card)) {
+                value = index%13;
+                if (value==0||value==12||value==11) value=10;
+                System.out.println("El valor de la carta es "+value);
+            }
+        }
+        return value;
+    }
+
 
 }
