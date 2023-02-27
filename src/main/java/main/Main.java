@@ -8,10 +8,13 @@ public class Main {
 
         System.out.println("Bienvenido a la app de casino");
 
-        FrenchDeck spanishDeck = new FrenchDeck();
+        SpanishDeck spanishDeck = new SpanishDeck();
 
         for (int i=0; i<200; i++) {
-            System.out.println(spanishDeck.randomCard());
+            String card = spanishDeck.randomCard();
+            System.out.println(card);
+            spanishDeck.getValueCourtCards(card);
         }
+
     }
 }
