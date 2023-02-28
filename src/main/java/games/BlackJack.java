@@ -2,8 +2,6 @@ package games;
 
 import elements.FrenchDeck;
 
-import java.util.List;
-
 public class BlackJack {
 
     public BlackJack(){
