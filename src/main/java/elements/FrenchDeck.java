@@ -8,10 +8,10 @@ public class FrenchDeck {
     String[] deck = new String[52];
 
     public FrenchDeck(){
-        createDeck();
+
     }
 
-    public void createDeck(){
+    public String[] createDeck(){
         int index = 0;
 
         for(int i = 0; i<suits.length; i++){
@@ -21,6 +21,8 @@ public class FrenchDeck {
                 index++;
             }
         }
+
+        return deck;
     }
 
     public String randomCard() {
