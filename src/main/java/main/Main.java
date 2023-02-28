@@ -19,7 +19,7 @@ public class Main {
         }
          */
 
-        BlackJack blackJack = new BlackJack();
+        new BlackJack();
 
     }
 
