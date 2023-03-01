@@ -13,9 +13,10 @@ public class BlackJack {
 
     FrenchDeck frenchDeck = new FrenchDeck();
     Scanner scanner = new Scanner(System.in);
+    String[] deck;
 
     public String[] createDeck(){
-        String[] deck = frenchDeck.createDeck();
+        deck = frenchDeck.createDeck();
         return deck;
     }
 
@@ -26,9 +27,34 @@ public class BlackJack {
         try {
             int quantity = Integer.parseInt(enter);
             System.out.println("Genial! Ahora tienes "+quantity+" euros en fichas. Gástalos bien.");
+            game();
         } catch (Exception e) {
             System.out.println("Lo siento, pero "+enter+" no es una cantidad válida. Anda a tomar por culo.");
         }
+    }
+
+    public void game(){
+        int value = 0;
+        int index = (int)(Math.random()*52);
+        String card = deck[index];
+        value = value + frenchDeck.getValueCourtCards(card);
+        System.out.println(card+"\n¿Desea otra carta?");
+        switch (scanner.nextLine()){
+            case "si":
+                index = (int)(Math.random()*52);
+                card = deck[index];
+                value = value + frenchDeck.getValueCourtCards(card);
+                System.out.println(card);
+                System.out.println("El valor total de sus cartas es "+value);
+                break;
+            default:
+                System.out.println("El valor total de sus cartas es "+value);
+                break;
+        }
+    }
+
+    public void newCard(){
+
     }
 
 }

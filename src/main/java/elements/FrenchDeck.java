@@ -38,7 +38,6 @@ public class FrenchDeck {
             if (object.equalsIgnoreCase(card)) {
                 int value = index%13;
                 if (value==0) value=13;
-                System.out.println("El valor de la carta es "+value);
             }
         }
         return index;
@@ -52,7 +51,6 @@ public class FrenchDeck {
             if (object.equalsIgnoreCase(card)) {
                 value = index%13;
                 if (value==0||value==12||value==11) value=10;
-                System.out.println("El valor de la carta es "+value);
             }
         }
         return value;
