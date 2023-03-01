@@ -14,7 +14,9 @@ public class BlackJack {
     FrenchDeck frenchDeck = new FrenchDeck();
     Scanner scanner = new Scanner(System.in);
     String[] deck;
-    double money;
+    String card;
+    int value;
+    int money;
 
     public String[] createDeck(){
         deck = frenchDeck.createDeck();
@@ -26,7 +28,7 @@ public class BlackJack {
         System.out.println("¿Que cantidad quieres jugar?");
         String enter = scanner.nextLine();
         try {
-            double quantity = Integer.parseInt(enter);
+            int quantity = Integer.parseInt(enter);
             if (quantity<50) System.out.println("Lo siento, la cantidad apostada es demasiado baja");
             else if (quantity>1000) System.out.println("Tu no has visto ese dinero en tu vida, hulio");
             else {
@@ -40,16 +42,12 @@ public class BlackJack {
     }
 
     public void game(){
-        int value = 0;
-        int index = (int)(Math.random()*52);
-        String card = deck[index];
-        value = value + frenchDeck.getValueCourtCards(card);
+        newCard();
         System.out.println(card+"\n¿Desea otra carta?");
         switch (scanner.nextLine()){
             case "si":
-                index = (int)(Math.random()*52);
-                card = deck[index];
-                value = value + frenchDeck.getValueCourtCards(card);
+                newCard();
+                System.out.println(card);
                 System.out.println("El valor total de sus cartas es "+value);
                 break;
             default:
@@ -58,11 +56,10 @@ public class BlackJack {
         }
     }
 
-    public String newCard(int value){
+    public void newCard(){
         int index = (int)(Math.random()*52);
-        String card = deck[index];
+        card = deck[index];
         value = value + frenchDeck.getValueCourtCards(card);
-        return card;
     }
 
 }
