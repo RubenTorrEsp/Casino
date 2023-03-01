@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e926a721-1e80-4da7-b754-441884e1f532" name="Changes" comment="Modificacion de la clase de juego BlackJack">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/games/BlackJack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/games/BlackJack.java" afterDir="false" />
-    </list>
+    <list default="true" id="e926a721-1e80-4da7-b754-441884e1f532" name="Changes" comment="BlackJack. Creación del método newCard" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -176,7 +173,21 @@
       <option name="project" value="LOCAL" />
       <updated>1677703212745</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="Modificacion de la clase de juego BlackJack">
+      <created>1677707551639</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1677707551639</updated>
+    </task>
+    <task id="LOCAL-00020" summary="BlackJack. Creación del método newCard">
+      <created>1677707865264</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1677707865264</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -205,6 +216,7 @@
     <MESSAGE value="Modificacion del main" />
     <MESSAGE value="Creación de la clase de juego BlackJack" />
     <MESSAGE value="Modificacion de la clase de juego BlackJack" />
-    <option name="LAST_COMMIT_MESSAGE" value="Modificacion de la clase de juego BlackJack" />
+    <MESSAGE value="BlackJack. Creación del método newCard" />
+    <option name="LAST_COMMIT_MESSAGE" value="BlackJack. Creación del método newCard" />
   </component>
 </project>

@@ -18,9 +18,8 @@ public class BlackJack {
     int value;
     int money;
 
-    public String[] createDeck(){
+    public void createDeck(){
         deck = frenchDeck.createDeck();
-        return deck;
     }
 
     public void wellcome(){
