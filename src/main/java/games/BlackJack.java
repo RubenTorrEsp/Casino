@@ -61,4 +61,12 @@ public class BlackJack {
         value = value + frenchDeck.getValueCourtCards(card);
     }
 
+    public boolean stillInGame(){
+        boolean lessThan21 = false;
+
+        System.out.println("Ea");
+
+        return lessThan21;
+    }
+
 }
