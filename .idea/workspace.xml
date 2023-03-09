@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e926a721-1e80-4da7-b754-441884e1f532" name="Changes" comment="BlackJack. Creación del método stillInGame">
-      <change afterPath="$PROJECT_DIR$/src/main/java/elements/Texts.java" afterDir="false" />
+    <list default="true" id="e926a721-1e80-4da7-b754-441884e1f532" name="Changes" comment="BlackJack. Modificacion del método stillInGame">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/games/BlackJack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/games/BlackJack.java" afterDir="false" />
     </list>
@@ -198,7 +197,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678383196822</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="BlackJack. Modificacion del método stillInGame">
+      <created>1678383988512</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1678383988512</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -229,6 +235,7 @@
     <MESSAGE value="Modificacion de la clase de juego BlackJack" />
     <MESSAGE value="BlackJack. Creación del método newCard" />
     <MESSAGE value="BlackJack. Creación del método stillInGame" />
-    <option name="LAST_COMMIT_MESSAGE" value="BlackJack. Creación del método stillInGame" />
+    <MESSAGE value="BlackJack. Modificacion del método stillInGame" />
+    <option name="LAST_COMMIT_MESSAGE" value="BlackJack. Modificacion del método stillInGame" />
   </component>
 </project>

@@ -48,7 +48,10 @@ public class BlackJack {
         while(stillInGame()) {
             System.out.println(card + texts.gameContinue);
             switch (scanner.nextLine()) {
-                case "si":
+                case "1":
+                    System.out.println("Todavía no se puede. Pronto llegará.");
+                    break;
+                case "2":
                     newCard();
                     System.out.println("El valor total de sus cartas es " + value);
                     break;
