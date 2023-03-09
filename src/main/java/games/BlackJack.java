@@ -1,6 +1,7 @@
 package games;
 
 import elements.FrenchDeck;
+import elements.Texts;
 
 import java.util.Scanner;
 
@@ -13,6 +14,8 @@ public class BlackJack {
 
     FrenchDeck frenchDeck = new FrenchDeck();
     Scanner scanner = new Scanner(System.in);
+    Texts texts = new Texts();
+
     String[] deck;
     String card;
     int value;
@@ -42,16 +45,17 @@ public class BlackJack {
 
     public void game(){
         newCard();
-        System.out.println(card+"\n¿Desea otra carta?");
-        switch (scanner.nextLine()){
-            case "si":
-                newCard();
-                System.out.println(card);
-                System.out.println("El valor total de sus cartas es "+value);
-                break;
-            default:
-                System.out.println("El valor total de sus cartas es "+value);
-                break;
+        while(stillInGame()) {
+            System.out.println(card + texts.gameContinue);
+            switch (scanner.nextLine()) {
+                case "si":
+                    newCard();
+                    System.out.println("El valor total de sus cartas es " + value);
+                    break;
+                default:
+                    System.out.println("El valor total de sus cartas es " + value);
+                    break;
+            }
         }
     }
 
@@ -62,9 +66,9 @@ public class BlackJack {
     }
 
     public boolean stillInGame(){
-        boolean lessThan21 = false;
+        boolean lessThan21 = true;
 
-        System.out.println("Ea");
+        if(value>22) lessThan21 = false;
 
         return lessThan21;
     }
