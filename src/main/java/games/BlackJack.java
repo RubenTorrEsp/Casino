@@ -59,7 +59,7 @@ public class BlackJack {
                     break;
                 default:
                     System.out.println("Te has plantado con " + value + " puntos. A ver si hay suerte");
-                    value=+10;
+                    value=value+30;
                     break;
             }
         }
