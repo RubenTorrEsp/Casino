@@ -58,7 +58,8 @@ public class BlackJack {
                     System.out.println("El valor total de sus cartas es " + value);
                     break;
                 default:
-                    System.out.println("El valor total de sus cartas es " + value);
+                    System.out.println("Te has plantado con " + value + " puntos. A ver si hay suerte");
+                    value=+10;
                     break;
             }
         }
