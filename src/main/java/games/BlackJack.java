@@ -59,7 +59,8 @@ public class BlackJack {
                     break;
                 default:
                     System.out.println("Te has plantado con " + value + " puntos. A ver si hay suerte");
-                    value=value+30;
+                    crupierPlays();
+                    value=50;
                     break;
             }
         }
@@ -74,10 +75,18 @@ public class BlackJack {
 
     public boolean stillInGame(){
         boolean lessThan21 = true;
-
         if(value>22) lessThan21 = false;
-
         return lessThan21;
     }
 
+    public int crupierPlays(){
+        int values = 0;
+
+        while (values<16){
+            System.out.println("El crupier lleva "+values+" puntos");
+            values++;
+        }
+
+        return values;
+    }
 }

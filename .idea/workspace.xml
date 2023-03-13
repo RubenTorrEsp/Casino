@@ -210,7 +210,21 @@
       <option name="project" value="LOCAL" />
       <updated>1678733610830</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="BlackJack. Modificacion del método game">
+      <created>1678738535606</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1678738535606</updated>
+    </task>
+    <task id="LOCAL-00025" summary="BlackJack. Modificacion del método game">
+      <created>1678738684736</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1678738684736</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
