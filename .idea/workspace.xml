@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e926a721-1e80-4da7-b754-441884e1f532" name="Changes" comment="BlackJack. Modificacion del método game">
+    <list default="true" id="e926a721-1e80-4da7-b754-441884e1f532" name="Changes" comment="BlackJack. Creación del método crupierPlays">
       <change beforePath="$PROJECT_DIR$/src/main/java/games/BlackJack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/games/BlackJack.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -224,7 +224,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678738684736</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="BlackJack. Creación del método crupierPlays">
+      <created>1678738937398</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1678738937398</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -257,6 +264,7 @@
     <MESSAGE value="BlackJack. Creación del método stillInGame" />
     <MESSAGE value="BlackJack. Modificacion del método stillInGame" />
     <MESSAGE value="BlackJack. Modificacion del método game" />
-    <option name="LAST_COMMIT_MESSAGE" value="BlackJack. Modificacion del método game" />
+    <MESSAGE value="BlackJack. Creación del método crupierPlays" />
+    <option name="LAST_COMMIT_MESSAGE" value="BlackJack. Creación del método crupierPlays" />
   </component>
 </project>

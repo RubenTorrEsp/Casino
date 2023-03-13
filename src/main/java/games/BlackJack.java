@@ -83,9 +83,17 @@ public class BlackJack {
         int values = 0;
 
         while (values<16){
-            System.out.println("El crupier lleva "+values+" puntos");
+            int index = (int)(Math.random()*52);
+            card = deck[index];
+            values = values + frenchDeck.getValueCourtCards(card);
+            System.out.println("El crupier ha sacado el "+card+" y lleva "+values+" puntos");
             values++;
         }
+
+        if(values>21) System.out.println("El crupier se ha pasau. To pa ti");
+        else if(values>value) System.out.println("La banca gana. A mamarla a parla");
+        else if(values==value) System.out.println("Empate. No me acuerdo que pasa");
+        else System.out.println("Has ganado. MAQUINON!!");
 
         return values;
     }
