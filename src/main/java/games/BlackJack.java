@@ -45,8 +45,10 @@ public class BlackJack {
 
     public void game(){
         newCard();
+        newCard();
+        System.out.println("El valor total de sus cartas es " + value);
         while(stillInGame()) {
-            System.out.println(card + texts.gameContinue);
+            System.out.println(texts.gameContinue);
             switch (scanner.nextLine()) {
                 case "1":
                     System.out.println("Todavía no se puede. Pronto llegará.");
@@ -65,6 +67,7 @@ public class BlackJack {
     public void newCard(){
         int index = (int)(Math.random()*52);
         card = deck[index];
+        System.out.println(card);
         value = value + frenchDeck.getValueCourtCards(card);
     }
 

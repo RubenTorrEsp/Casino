@@ -5,7 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e926a721-1e80-4da7-b754-441884e1f532" name="Changes" comment="BlackJack. Modificacion del método stillInGame">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/games/BlackJack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/games/BlackJack.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
