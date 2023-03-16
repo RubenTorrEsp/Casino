@@ -3,23 +3,31 @@ package main;
 import elements.*;
 import games.BlackJack;
 
+import java.util.Scanner;
+
 public class Main {
+
+    static Texts texts = new Texts();
+    static Scanner scanner = new Scanner(System.in);
 
     public static void main(String[] args) {
 
-        System.out.println("Bienvenido a la app de casino");
+        System.out.println(texts.wellcome);
+        System.out.println(texts.availableGames);
 
-        //SpanishDeck spanishDeck = new SpanishDeck();
+        String gameSelected = scanner.nextLine();
 
-        /*
-        for (int i=0; i<200; i++) {
-            String card = spanishDeck.randomCard();
-            System.out.println(card);
-            spanishDeck.getValueCourtCards(card);
+        switch (gameSelected){
+            case "1":
+                new BlackJack();
+                break;
+            case "2":
+                System.out.println(texts.notImplemented);
+                break;
+            default:
+                System.out.println("Gracias por jugar. Vuelva pronto.");
+                break;
         }
-         */
-
-        new BlackJack();
 
     }
 

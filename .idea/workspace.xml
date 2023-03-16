@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e926a721-1e80-4da7-b754-441884e1f532" name="Changes" comment="Modificacion del juego BlackJack">
+    <list default="true" id="e926a721-1e80-4da7-b754-441884e1f532" name="Changes" comment="Ampliacion de los textos predefinidos">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/elements/Card.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/elements/Card.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/elements/Texts.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/elements/Texts.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/games/BlackJack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/games/BlackJack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/main/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -275,7 +276,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678996873153</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="Ampliacion de los textos predefinidos">
+      <created>1679000603641</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1679000603641</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -313,6 +321,7 @@
     <MESSAGE value="Creación de la clase &quot;Card&quot; y modificación de las barajas, de forma que sean listas." />
     <MESSAGE value="Creación de los métodos newCard" />
     <MESSAGE value="Modificacion del juego BlackJack" />
-    <option name="LAST_COMMIT_MESSAGE" value="Modificacion del juego BlackJack" />
+    <MESSAGE value="Ampliacion de los textos predefinidos" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ampliacion de los textos predefinidos" />
   </component>
 </project>
