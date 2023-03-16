@@ -43,21 +43,19 @@ public class BlackJack {
         playerNewCard();
         playerNewCard();
         System.out.println("El valor total de sus cartas es " + playerValue + ".");
-        while(stillInGame()) {
+        while(playerValue < 22) {
             System.out.println(texts.blackJackGameContinue);
             switch (scanner.nextLine()) {
-                case "1":
-                    System.out.println(texts.notImplemented);
-                    break;
-                case "2":
+                case "1" -> System.out.println(texts.notImplemented);
+                case "2" -> {
                     playerNewCard();
                     System.out.println(texts.totalValue(playerValue));
-                    break;
-                default:
+                }
+                default -> {
                     System.out.println(texts.stucked(playerValue));
                     crupierPlays();
-                    playerValue =50;
-                    break;
+                    playerValue = 50;
+                }
             }
         }
     }
@@ -68,12 +66,6 @@ public class BlackJack {
         playerValue = playerValue + card.getValueCourtCards();
     }
 
-    public boolean stillInGame(){
-        boolean lessThan21 = true;
-        if(playerValue >= 22) lessThan21 = false;
-        return lessThan21;
-    }
-
     public void crupierNewCard(){
         card = deck.newCard();
         System.out.println(card.toString());
@@ -82,8 +74,7 @@ public class BlackJack {
 
     public void crupierPlays(){
         while (crupierValue<16){
-            while (crupierValue<playerValue)
-            crupierNewCard();
+            if (crupierValue<playerValue) crupierNewCard();
         }
 
         System.out.print("El crupier ha sacado "+crupierValue+" puntos");
