@@ -24,4 +24,11 @@ public class FrenchDeck {
         Collections.shuffle(cards);
     }
 
+    public Card newCard() {
+        if (cards.isEmpty()) {
+            return null;
+        }
+        return cards.remove(0);
+    }
+
 }
