@@ -8,22 +8,16 @@ import java.util.Scanner;
 public class BlackJack {
 
     public BlackJack(){
-        createDeck();
+        deck = new FrenchDeck();
         wellcome();
     }
 
-    FrenchDeck frenchDeck = new FrenchDeck();
+    FrenchDeck deck;
     Scanner scanner = new Scanner(System.in);
     Texts texts = new Texts();
 
-    String[] deck;
-    String card;
     int value;
     int money;
-
-    public void createDeck(){
-        deck = frenchDeck.createDeck();
-    }
 
     public void wellcome(){
         System.out.println("Bienvenido a la mesa de BlackJack");
@@ -44,8 +38,8 @@ public class BlackJack {
     }
 
     public void game(){
-        newCard();
-        newCard();
+        deck.newCard();
+        deck.newCard();
         System.out.println("El valor total de sus cartas es " + value);
         while(stillInGame()) {
             System.out.println(texts.gameContinue);
@@ -54,7 +48,7 @@ public class BlackJack {
                     System.out.println("Todavía no se puede. Pronto llegará.");
                     break;
                 case "2":
-                    newCard();
+                    deck.newCard();
                     System.out.println("El valor total de sus cartas es " + value);
                     break;
                 default:
@@ -64,13 +58,6 @@ public class BlackJack {
                     break;
             }
         }
-    }
-
-    public void newCard(){
-        int index = (int)(Math.random()*52);
-        card = deck[index];
-        System.out.println(card);
-        value = value + frenchDeck.getValueCourtCards(card);
     }
 
     public boolean stillInGame(){
@@ -83,10 +70,6 @@ public class BlackJack {
         int values = 0;
 
         while (values<16){
-            int index = (int)(Math.random()*52);
-            card = deck[index];
-            values = values + frenchDeck.getValueCourtCards(card);
-            System.out.println("El crupier ha sacado el "+card+" y lleva "+values+" puntos");
             values++;
         }
 

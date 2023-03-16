@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e926a721-1e80-4da7-b754-441884e1f532" name="Changes" comment="Creación de la clase &quot;Card&quot; y modificación de las barajas, de forma que sean listas.">
+    <list default="true" id="e926a721-1e80-4da7-b754-441884e1f532" name="Changes" comment="Creación de los métodos newCard">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/elements/Card.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/elements/Card.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/elements/FrenchDeck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/elements/FrenchDeck.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/elements/SpanishDeck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/elements/SpanishDeck.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/games/BlackJack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/games/BlackJack.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -247,7 +248,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678992245921</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="Creación de los métodos newCard">
+      <created>1678993954435</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1678993954435</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -283,6 +291,7 @@
     <MESSAGE value="BlackJack. Creación del método crupierPlays" />
     <MESSAGE value="BlackJack. Modificacion del método crupierPlays" />
     <MESSAGE value="Creación de la clase &quot;Card&quot; y modificación de las barajas, de forma que sean listas." />
-    <option name="LAST_COMMIT_MESSAGE" value="Creación de la clase &quot;Card&quot; y modificación de las barajas, de forma que sean listas." />
+    <MESSAGE value="Creación de los métodos newCard" />
+    <option name="LAST_COMMIT_MESSAGE" value="Creación de los métodos newCard" />
   </component>
 </project>
