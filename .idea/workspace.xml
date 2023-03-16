@@ -4,8 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e926a721-1e80-4da7-b754-441884e1f532" name="Changes" comment="BlackJack. Creación del método crupierPlays">
-      <change beforePath="$PROJECT_DIR$/src/main/java/games/BlackJack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/games/BlackJack.java" afterDir="false" />
+    <list default="true" id="e926a721-1e80-4da7-b754-441884e1f532" name="Changes" comment="BlackJack. Modificacion del método crupierPlays">
+      <change afterPath="$PROJECT_DIR$/src/main/java/elements/Card.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/elements/FrenchDeck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/elements/FrenchDeck.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/elements/SpanishDeck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/elements/SpanishDeck.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -231,7 +234,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678738937398</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="BlackJack. Modificacion del método crupierPlays">
+      <created>1678739347827</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1678739347827</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -265,6 +275,7 @@
     <MESSAGE value="BlackJack. Modificacion del método stillInGame" />
     <MESSAGE value="BlackJack. Modificacion del método game" />
     <MESSAGE value="BlackJack. Creación del método crupierPlays" />
-    <option name="LAST_COMMIT_MESSAGE" value="BlackJack. Creación del método crupierPlays" />
+    <MESSAGE value="BlackJack. Modificacion del método crupierPlays" />
+    <option name="LAST_COMMIT_MESSAGE" value="BlackJack. Modificacion del método crupierPlays" />
   </component>
 </project>

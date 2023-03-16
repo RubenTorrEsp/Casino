@@ -1,60 +1,27 @@
 package elements;
 
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.List;
+
 public class FrenchDeck {
 
-    String[] values = {"A", "2", "3", "4", "5", "6", "7", "8", "9", "10","J", "Q", "K"};
-    String[] suits = {"spades", "hearts", "clubs", "diamonds"};
-
-    String[] deck = new String[52];
+    private List<Card> cards;
 
     public FrenchDeck(){
+        String[] ranks = {"A", "2", "3", "4", "5", "6", "7", "8", "9", "10","J", "Q", "K"};
+        String[] suits = {"spades", "hearts", "clubs", "diamonds"};
 
-    }
-
-    public String[] createDeck(){
-        int index = 0;
-
-        for(int i = 0; i<suits.length; i++){
-            for(int j=0; j<values.length; j++){
-                String card = values[j]+" of "+suits[i];
-                deck[index] = card;
-                index++;
+        cards = new ArrayList<>();
+        for (String suit : suits) {
+            for (String rank : ranks) {
+                cards.add(new Card(rank, suit));
             }
         }
-
-        return deck;
     }
 
-    public String randomCard() {
-        int position = (int)(Math.random()*48);
-        String card = deck[position];
-        return card;
+    public void shuffleCards() {
+        Collections.shuffle(cards);
     }
-
-    public int getValue(String card) {
-        int index = 0;
-        for(String object:deck){
-            index++;
-            if (object.equalsIgnoreCase(card)) {
-                int value = index%13;
-                if (value==0) value=13;
-            }
-        }
-        return index;
-    }
-
-    public int getValueCourtCards(String card) {
-        int index = 0;
-        int value = 0;
-        for(String object:deck){
-            index++;
-            if (object.equalsIgnoreCase(card)) {
-                value = index%13;
-                if (value==0||value==12||value==11) value=10;
-            }
-        }
-        return value;
-    }
-
 
 }
