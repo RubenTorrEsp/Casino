@@ -17,16 +17,10 @@ public class Main {
 
         String gameSelected = scanner.nextLine();
 
-        switch (gameSelected){
-            case "1":
-                new BlackJack();
-                break;
-            case "2":
-                System.out.println(texts.notImplemented);
-                break;
-            default:
-                System.out.println("Gracias por jugar. Vuelva pronto.");
-                break;
+        switch (gameSelected) {
+            case "1" -> new BlackJack();
+            case "2" -> System.out.println(texts.notImplemented);
+            default -> System.out.println("Gracias por jugar. Vuelva pronto.");
         }
 
     }
