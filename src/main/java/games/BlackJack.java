@@ -44,17 +44,17 @@ public class BlackJack {
         playerNewCard();
         System.out.println("El valor total de sus cartas es " + playerValue + ".");
         while(stillInGame()) {
-            System.out.println(texts.gameContinue);
+            System.out.println(texts.blackJackGameContinue);
             switch (scanner.nextLine()) {
                 case "1":
-                    System.out.println("Todavía no se puede. Pronto llegará.");
+                    System.out.println(texts.notImplemented);
                     break;
                 case "2":
                     playerNewCard();
-                    System.out.println("El valor total de sus cartas es " + playerValue + ".");
+                    System.out.println(texts.totalValue(playerValue));
                     break;
                 default:
-                    System.out.println("Te has plantado con " + playerValue + " puntos. A ver si hay suerte.");
+                    System.out.println(texts.stucked(playerValue));
                     crupierPlays();
                     playerValue =50;
                     break;
