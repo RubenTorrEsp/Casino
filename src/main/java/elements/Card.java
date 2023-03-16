@@ -24,7 +24,7 @@ public class Card {
     public int getValue() {
         int value = 0;
         switch (rank){
-            case "Ace":
+            case "A":
             case "1":
                 value = 1;
                 break;
