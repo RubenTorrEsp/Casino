@@ -79,7 +79,7 @@ public class BlackJack {
             } while (crupierValue < playerValue);
         }
 
-        System.out.print("El crupier ha sacado "+crupierValue+" puntos");
+        System.out.print(texts.crupierValue(crupierValue));
 
         if(crupierValue > playerValue && crupierValue <= 21) System.out.println(". La banca gana. A mamarla a parla.");
         else if(crupierValue == playerValue) System.out.println(". Empate. No pierdes, pero no te flipes que tampoco ganas.");
