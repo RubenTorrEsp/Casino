@@ -42,7 +42,7 @@ public class BlackJack {
     public void game(){
         playerNewCard();
         playerNewCard();
-        System.out.println("El valor total de sus cartas es " + playerValue + ".");
+        System.out.print("El valor total de sus cartas es " + playerValue + ".");
         while(playerValue < 22) {
             System.out.println(texts.blackJackGameContinue);
             switch (scanner.nextLine()) {
