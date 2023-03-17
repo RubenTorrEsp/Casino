@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e926a721-1e80-4da7-b754-441884e1f532" name="Changes" comment="Limpieza del switch case">
+    <list default="true" id="e926a721-1e80-4da7-b754-441884e1f532" name="Changes" comment="Limpieza del codigo">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/games/BlackJack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/games/BlackJack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/main/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -294,7 +296,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679001514517</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="Limpieza del codigo">
+      <created>1679001624116</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1679001624116</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -309,7 +318,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Primer commit. Creación del main." />
     <MESSAGE value="Creación de los elementos Carta y Dado." />
     <MESSAGE value="Creación del juego BlackJack." />
     <MESSAGE value="Creación del objeto Dado" />
@@ -334,6 +342,7 @@
     <MESSAGE value="Ampliacion de los textos predefinidos" />
     <MESSAGE value="Modificación del Main. Ahora te deja elegir el juego." />
     <MESSAGE value="Limpieza del switch case" />
-    <option name="LAST_COMMIT_MESSAGE" value="Limpieza del switch case" />
+    <MESSAGE value="Limpieza del codigo" />
+    <option name="LAST_COMMIT_MESSAGE" value="Limpieza del codigo" />
   </component>
 </project>

@@ -11,7 +11,6 @@ public class Main {
     static Scanner scanner = new Scanner(System.in);
 
     public static void main(String[] args) {
-
         System.out.println(texts.wellcome);
         System.out.println(texts.availableGames);
 
@@ -22,7 +21,6 @@ public class Main {
             case "2" -> System.out.println(texts.notImplemented);
             default -> System.out.println("Gracias por jugar. Vuelva pronto.");
         }
-
     }
 
 }

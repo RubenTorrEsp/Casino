@@ -74,7 +74,9 @@ public class BlackJack {
 
     public void crupierPlays(){
         while (crupierValue<16){
-            if (crupierValue<playerValue) crupierNewCard();
+            do {
+                crupierNewCard();
+            } while (crupierValue < playerValue);
         }
 
         System.out.print("El crupier ha sacado "+crupierValue+" puntos");
