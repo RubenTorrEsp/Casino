@@ -15,6 +15,7 @@ public class BlackJack {
     int playerValue;
     int crupierValue;
     int money;
+    Boolean continueGame = true;
 
     public BlackJack(){
         deck = new FrenchDeck();
@@ -27,13 +28,9 @@ public class BlackJack {
         String enter = scanner.nextLine();
         try {
             int quantity = Integer.parseInt(enter);
-            if (quantity<50) System.out.println("Lo siento, la cantidad apostada es demasiado baja.");
-            else if (quantity>1000) System.out.println("Tu no has visto ese dinero en tu vida, hulio.");
-            else {
-                System.out.println("Genial! Ahora tienes "+quantity+" euros en fichas. Gástalos bien.");
-                money = quantity;
-                game();
-            }
+            System.out.println("Genial! Ahora tienes "+quantity+" euros en fichas. Gástalos bien.");
+            money = quantity;
+            game();
         } catch (Exception e) {
             System.out.println("Lo siento, pero "+enter+" no es una cantidad válida. Anda a tomar por culo.");
         }
@@ -43,21 +40,23 @@ public class BlackJack {
         playerNewCard();
         playerNewCard();
         System.out.print("El valor total de sus cartas es " + playerValue + ".");
-        while(playerValue < 22) {
+        while(continueGame) {
             System.out.println(texts.blackJackGameContinue);
             switch (scanner.nextLine()) {
                 case "1" -> System.out.println(texts.notImplemented);
                 case "2" -> {
                     playerNewCard();
-                    System.out.println(texts.totalValue(playerValue));
+                    System.out.print(texts.totalValue(playerValue));
+                    if (playerValue > 21) continueGame = false;
                 }
                 default -> {
                     System.out.println(texts.stucked(playerValue));
                     crupierPlays();
-                    playerValue = 50;
+                    continueGame = false;
                 }
             }
         }
+        checkVictory();
     }
 
     public void playerNewCard(){
@@ -78,11 +77,23 @@ public class BlackJack {
                 crupierNewCard();
             } while (crupierValue < playerValue);
         }
-
         System.out.print(texts.crupierValue(crupierValue));
+    }
 
-        if(crupierValue > playerValue && crupierValue <= 21) System.out.println(". La banca gana. A mamarla a parla.");
-        else if(crupierValue == playerValue) System.out.println(". Empate. No pierdes, pero no te flipes que tampoco ganas.");
-        else System.out.println(". Has ganado. MAQUINON!!");
+    public void checkVictory(){
+        if (playerValue > 21) {
+            System.out.println(" Te has pasado.");
+            money = 0;
+        }
+        else if (crupierValue > playerValue && crupierValue <= 21) {
+            System.out.println(" La banca gana.");
+            money = 0;
+        }
+        else if (crupierValue == playerValue) System.out.println(" Empate. No pierdes, pero no te flipes que tampoco ganas.");
+        else {
+            System.out.println(" Has ganado. MAQUINON!!");
+            money = money*2;
+        }
+        System.out.println("Ahora tienes "+money+" euros.");
     }
 }
