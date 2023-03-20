@@ -25,6 +25,7 @@ public class Main {
                 case "0" -> {
                     System.out.println(texts.thanks);
                     correctSelection = true;
+
                 }
                 case "1" -> {
                     new BlackJack();
