@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e926a721-1e80-4da7-b754-441884e1f532" name="Changes" comment="Modificación del juego BlackJack">
+    <list default="true" id="e926a721-1e80-4da7-b754-441884e1f532" name="Changes" comment="Modificación del main">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/games/BlackJack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/games/BlackJack.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/main/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/elements/Texts.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/elements/Texts.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -331,7 +330,21 @@
       <option name="project" value="LOCAL" />
       <updated>1679088874659</updated>
     </task>
-    <option name="localTasksCounter" value="41" />
+    <task id="LOCAL-00041" summary="Modificación del juego BlackJack">
+      <created>1679342503028</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1679342503028</updated>
+    </task>
+    <task id="LOCAL-00042" summary="Modificación del main">
+      <created>1679342518630</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1679342518630</updated>
+    </task>
+    <option name="localTasksCounter" value="43" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -346,7 +359,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Creación del objeto Dado" />
     <MESSAGE value="Modificación del Main para pruebas (no relevante)" />
     <MESSAGE value="Creación de la baraja española" />
     <MESSAGE value="Creación de la baraja francesa" />
@@ -371,6 +383,7 @@
     <MESSAGE value="Limpieza del codigo" />
     <MESSAGE value="Modificación de textos" />
     <MESSAGE value="Modificación del juego BlackJack" />
-    <option name="LAST_COMMIT_MESSAGE" value="Modificación del juego BlackJack" />
+    <MESSAGE value="Modificación del main" />
+    <option name="LAST_COMMIT_MESSAGE" value="Modificación del main" />
   </component>
 </project>
