@@ -2,12 +2,14 @@ package games;
 
 import elements.Card;
 import elements.SpanishDeck;
+import elements.Texts;
 
 import java.util.Scanner;
 
 public class CartaAlta {
     SpanishDeck deck = new SpanishDeck();
     Scanner scanner = new Scanner(System.in);
+    Texts texts = new Texts();
     Card playerCard;
     Card crupierCard;
 
@@ -17,7 +19,7 @@ public class CartaAlta {
 
     public CartaAlta(){
         System.out.println("Bienvenido a la mesa de Carta Alta. Ganará el jugador que saque la carta más alta.");
-        System.out.println("¿Cuanto quieres apostar?");
+        System.out.println(texts.quantityToPlay);
         String enter = scanner.nextLine();
         try {
             int quantity = Integer.parseInt(enter);
@@ -36,14 +38,12 @@ public class CartaAlta {
         playerCard = deck.newCard();
         System.out.println("Has sacado el "+playerCard.toStringSPA());
         playerValue =+ playerCard.getValue();
-        System.out.println(playerValue);
     }
 
     public void crupierSacaCarta(){
         crupierCard = deck.newCard();
         System.out.println("El crupier ha sacado el "+crupierCard.toStringSPA());
         crupierValue =+ crupierCard.getValue();
-        System.out.println(crupierValue);
     }
 
     public void checkVictory() {
