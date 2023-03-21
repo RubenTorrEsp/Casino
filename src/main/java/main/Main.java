@@ -2,6 +2,7 @@ package main;
 
 import elements.*;
 import games.BlackJack;
+import games.CartaAlta;
 
 import java.util.Scanner;
 
@@ -32,7 +33,7 @@ public class Main {
                     correctSelection = true;
                 }
                 case "2" -> {
-                    System.out.println(texts.notImplemented);
+                    new CartaAlta();
                     correctSelection = true;
                 }
                 default -> {
