@@ -24,7 +24,7 @@ public class BlackJack {
     }
 
     public void wellcome(){
-        System.out.println("Bienvenido a la mesa de BlackJack\n¿Que cantidad quieres jugar?");
+        System.out.println("Bienvenido a la mesa de BlackJack\n"+texts.quantityToPlay);
         String enter = scanner.nextLine();
         try {
             int quantity = Integer.parseInt(enter);
