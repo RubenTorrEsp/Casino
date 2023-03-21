@@ -8,6 +8,7 @@ public class Texts {
             "\n1. BlackJack." +
             "\n2. Carta alta.";
 
+    public String quantityToPlay = "¿Cuanto quieres apostar?";
     public String notImplemented = "Todavía no se puede. Pronto llegará.";
     public String thanks = "Gracias por jugar. Vuelva pronto.";
     public String notAvailable = "Opción no disponible. Seleccione otra.";
