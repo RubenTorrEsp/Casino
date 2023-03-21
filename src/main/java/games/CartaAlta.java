@@ -25,7 +25,7 @@ public class CartaAlta {
             apuesta = quantity;
             deck.shuffleCards();
             jugadorSacaCarta();
-
+            crupierSacaCarta();
             checkVictory();
         } catch (Exception e) {
             System.out.println("Lo siento, pero "+enter+" no es una cantidad válida. Anda a tomar por culo.");
@@ -34,19 +34,14 @@ public class CartaAlta {
 
     public void jugadorSacaCarta(){
         playerCard = deck.newCard();
-        System.out.println("Has sacado el "+playerCard.toString());
+        System.out.println("Has sacado el "+playerCard.toStringSPA());
         playerValue =+ playerCard.getValue();
         System.out.println(playerValue);
-        deck.shuffleCards();
-        crupierCard = deck.newCard();
-        System.out.println("El crupier ha sacado el "+crupierCard.toString());
-        crupierValue =+ crupierCard.getValue();
-        System.out.println(crupierValue);
     }
 
     public void crupierSacaCarta(){
         crupierCard = deck.newCard();
-        System.out.println("El crupier ha sacado el "+playerCard.toString());
+        System.out.println("El crupier ha sacado el "+crupierCard.toStringSPA());
         crupierValue =+ crupierCard.getValue();
         System.out.println(crupierValue);
     }

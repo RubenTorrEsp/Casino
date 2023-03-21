@@ -17,8 +17,12 @@ public class Card {
         return suit;
     }
 
-    public String toString() {
+    public String toStringENG() {
         return rank + " of " + suit;
+    }
+
+    public String toStringSPA() {
+        return rank + " de " + suit;
     }
 
     public int getValue() {
