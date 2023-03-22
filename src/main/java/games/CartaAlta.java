@@ -10,20 +10,20 @@ public class CartaAlta {
     SpanishDeck deck = new SpanishDeck();
     Scanner scanner = new Scanner(System.in);
     Texts texts = new Texts();
+
     Card playerCard;
     Card crupierCard;
-
     int playerValue;
     int crupierValue;
     int apuesta;
 
     public CartaAlta(){
-        System.out.println("Bienvenido a la mesa de Carta Alta. Ganará el jugador que saque la carta más alta.");
+        System.out.println(texts.highCardWellcome);
         System.out.println(texts.quantityToPlay);
         String enter = scanner.nextLine();
         try {
             int quantity = Integer.parseInt(enter);
-            System.out.println("Genial! Ahora tienes "+quantity+" euros en fichas. Gástalos bien.");
+            System.out.println(texts.correctBet(quantity));
             apuesta = quantity;
             deck.shuffleCards();
             jugadorSacaCarta();
@@ -48,7 +48,7 @@ public class CartaAlta {
 
     public void checkVictory() {
         if (playerValue > crupierValue) System.out.println("Has ganado. Ahora tienes " + (apuesta * 2) + "€");
-        else if (playerValue == crupierValue) System.out.println("Empate. Te quedas igual");
+        else if (playerValue == crupierValue) System.out.println("Empate. Te quedas con "+ apuesta + "€");
         else System.out.println("Has perdido. Te quedas a 0");
     }
 
