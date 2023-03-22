@@ -24,11 +24,11 @@ public class BlackJack {
     }
 
     public void wellcome(){
-        System.out.println("Bienvenido a la mesa de BlackJack\n"+texts.quantityToPlay);
+        System.out.println(texts.blackJackWellcome+"\n"+texts.quantityToPlay);
         String enter = scanner.nextLine();
         try {
             int quantity = Integer.parseInt(enter);
-            System.out.println("Genial! Ahora tienes "+quantity+" euros en fichas. Gástalos bien.");
+            System.out.println(texts.correctBet(quantity));
             money = quantity;
             game();
         } catch (Exception e) {
@@ -61,13 +61,13 @@ public class BlackJack {
 
     public void playerNewCard(){
         card = deck.newCard();
-        System.out.println(card.toString());
+        System.out.println(card.toStringENG());
         playerValue = playerValue + card.getValueCourtCards();
     }
 
     public void crupierNewCard(){
         card = deck.newCard();
-        System.out.println(card.toString());
+        System.out.println(card.toStringENG());
         crupierValue = crupierValue + card.getValueCourtCards();
     }
 
