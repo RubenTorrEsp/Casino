@@ -4,11 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e926a721-1e80-4da7-b754-441884e1f532" name="Changes" comment="Modificación del Main">
+    <list default="true" id="e926a721-1e80-4da7-b754-441884e1f532" name="Changes" comment="Modificación de la clase texts">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/elements/Card.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/elements/Card.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/elements/Texts.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/elements/Texts.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/games/BlackJack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/games/BlackJack.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/games/CartaAlta.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/games/CartaAlta.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/main/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,20 +53,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1677011413913</updated>
-    </task>
-    <task id="LOCAL-00001" summary="Primer commit. Creación del proyecto.">
-      <created>1677012113676</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1677012113676</updated>
-    </task>
-    <task id="LOCAL-00002" summary="Primer commit. Creación del main.">
-      <created>1677012164882</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1677012164882</updated>
     </task>
     <task id="LOCAL-00003" summary="Creación de los elementos Carta y Dado.">
       <created>1677012235407</created>
@@ -388,7 +376,28 @@
       <option name="project" value="LOCAL" />
       <updated>1679431397823</updated>
     </task>
-    <option name="localTasksCounter" value="49" />
+    <task id="LOCAL-00049" summary="Modificación del juego BlackJack">
+      <created>1679431641438</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1679431641438</updated>
+    </task>
+    <task id="LOCAL-00050" summary="Modificación del juego Carta Alta">
+      <created>1679431658593</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1679431658593</updated>
+    </task>
+    <task id="LOCAL-00051" summary="Modificación de la clase texts">
+      <created>1679431673873</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1679431673873</updated>
+    </task>
+    <option name="localTasksCounter" value="52" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -403,8 +412,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Modificación del Main. Pruebas" />
-    <MESSAGE value="Creación de metodos de valor de carta en la baraja francesa" />
     <MESSAGE value="Creación de metodos de valor de carta en la baraja española" />
     <MESSAGE value="Modificacion del main" />
     <MESSAGE value="Creación de la clase de juego BlackJack" />
@@ -423,11 +430,13 @@
     <MESSAGE value="Limpieza del switch case" />
     <MESSAGE value="Limpieza del codigo" />
     <MESSAGE value="Modificación de textos" />
-    <MESSAGE value="Modificación del juego BlackJack" />
     <MESSAGE value="Modificación del main" />
     <MESSAGE value="Modificación del texto" />
     <MESSAGE value="Creacion del juego carta alta" />
     <MESSAGE value="Modificación del Main" />
-    <option name="LAST_COMMIT_MESSAGE" value="Modificación del Main" />
+    <MESSAGE value="Modificación del juego BlackJack" />
+    <MESSAGE value="Modificación del juego Carta Alta" />
+    <MESSAGE value="Modificación de la clase texts" />
+    <option name="LAST_COMMIT_MESSAGE" value="Modificación de la clase texts" />
   </component>
 </project>

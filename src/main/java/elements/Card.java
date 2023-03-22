@@ -57,15 +57,15 @@ public class Card {
                 value = 9;
                 break;
             case "10":
-            case "Sota":
+            case "sota":
                 value = 10;
                 break;
             case "J":
-            case "Caballo":
+            case "caballo":
                 value = 11;
                 break;
             case "Q":
-            case "Rey":
+            case "rey":
                 value = 12;
                 break;
             case "K":
@@ -110,9 +110,9 @@ public class Card {
             case "J":
             case "Q":
             case "K":
-            case "Sota":
-            case "Caballo":
-            case "Rey":
+            case "sota":
+            case "caballo":
+            case "rey":
                 value = 10;
                 break;
         }
