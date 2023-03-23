@@ -6,7 +6,8 @@ public class Texts {
     public String availableGames =
             "0. Salir" +
             "\n1. BlackJack." +
-            "\n2. Carta alta.";
+            "\n2. Carta alta." +
+            "\n3. Ruleta.";
 
     public String quantityToPlay = "¿Cuanto quieres apostar?";
     public String notImplemented = "Todavía no se puede. Pronto llegará.";
