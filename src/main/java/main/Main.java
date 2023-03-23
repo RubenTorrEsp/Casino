@@ -3,6 +3,7 @@ package main;
 import elements.*;
 import games.BlackJack;
 import games.CartaAlta;
+import games.Roulette;
 
 import java.util.Scanner;
 
@@ -33,6 +34,10 @@ public class Main {
                 }
                 case "2" -> {
                     new CartaAlta();
+                    correctSelection = true;
+                }
+                case "3" -> {
+                    new Roulette();
                     correctSelection = true;
                 }
                 default -> {
