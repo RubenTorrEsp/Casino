@@ -4,14 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e926a721-1e80-4da7-b754-441884e1f532" name="Changes" comment="Modificación de la clase texts">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/elements/Card.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/elements/Card.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/elements/Texts.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/elements/Texts.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/games/BlackJack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/games/BlackJack.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/games/CartaAlta.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/games/CartaAlta.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/main/Main.java" afterDir="false" />
-    </list>
+    <list default="true" id="e926a721-1e80-4da7-b754-441884e1f532" name="Changes" comment="Modificación de las clases Card y Main" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -53,34 +46,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1677011413913</updated>
-    </task>
-    <task id="LOCAL-00003" summary="Creación de los elementos Carta y Dado.">
-      <created>1677012235407</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1677012235407</updated>
-    </task>
-    <task id="LOCAL-00004" summary="Creación del juego BlackJack.">
-      <created>1677012258000</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1677012258000</updated>
-    </task>
-    <task id="LOCAL-00005" summary="Creación del juego BlackJack.">
-      <created>1677012310439</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1677012310439</updated>
-    </task>
-    <task id="LOCAL-00006" summary="Creación del objeto Dado">
-      <created>1677094652695</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1677094652695</updated>
     </task>
     <task id="LOCAL-00007" summary="Modificación del Main para pruebas (no relevante)">
       <created>1677094679855</created>
@@ -397,7 +362,35 @@
       <option name="project" value="LOCAL" />
       <updated>1679431673873</updated>
     </task>
-    <option name="localTasksCounter" value="52" />
+    <task id="LOCAL-00052" summary="Modificación de la clase texts">
+      <created>1679515115430</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1679515115431</updated>
+    </task>
+    <task id="LOCAL-00053" summary="Modificación del juego BlackJack">
+      <created>1679515140973</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1679515140973</updated>
+    </task>
+    <task id="LOCAL-00054" summary="Modificación del juego CartaAlta">
+      <created>1679515156409</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1679515156409</updated>
+    </task>
+    <task id="LOCAL-00055" summary="Modificación de las clases Card y Main">
+      <created>1679515174378</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1679515174378</updated>
+    </task>
+    <option name="localTasksCounter" value="56" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -412,8 +405,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Creación de metodos de valor de carta en la baraja española" />
-    <MESSAGE value="Modificacion del main" />
     <MESSAGE value="Creación de la clase de juego BlackJack" />
     <MESSAGE value="Modificacion de la clase de juego BlackJack" />
     <MESSAGE value="BlackJack. Creación del método newCard" />
@@ -434,9 +425,11 @@
     <MESSAGE value="Modificación del texto" />
     <MESSAGE value="Creacion del juego carta alta" />
     <MESSAGE value="Modificación del Main" />
-    <MESSAGE value="Modificación del juego BlackJack" />
     <MESSAGE value="Modificación del juego Carta Alta" />
     <MESSAGE value="Modificación de la clase texts" />
-    <option name="LAST_COMMIT_MESSAGE" value="Modificación de la clase texts" />
+    <MESSAGE value="Modificación del juego BlackJack" />
+    <MESSAGE value="Modificación del juego CartaAlta" />
+    <MESSAGE value="Modificación de las clases Card y Main" />
+    <option name="LAST_COMMIT_MESSAGE" value="Modificación de las clases Card y Main" />
   </component>
 </project>
