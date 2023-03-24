@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e926a721-1e80-4da7-b754-441884e1f532" name="Changes" comment="Creación del juego Ruleta">
+    <list default="true" id="e926a721-1e80-4da7-b754-441884e1f532" name="Changes" comment="Modificación del Main">
+      <change afterPath="$PROJECT_DIR$/src/main/java/elements/Pocket.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/elements/Texts.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/elements/Texts.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/main/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,20 +49,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1677011413913</updated>
-    </task>
-    <task id="LOCAL-00008" summary="Creación de la baraja española">
-      <created>1677181441662</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1677181441662</updated>
-    </task>
-    <task id="LOCAL-00009" summary="Creación de la baraja francesa">
-      <created>1677183012923</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1677183012923</updated>
     </task>
     <task id="LOCAL-00010" summary="Modificación del Main. Pruebas">
       <created>1677183046607</created>
@@ -394,7 +379,21 @@
       <option name="project" value="LOCAL" />
       <updated>1679594131726</updated>
     </task>
-    <option name="localTasksCounter" value="57" />
+    <task id="LOCAL-00057" summary="Modificación de los textos">
+      <created>1679594246538</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1679594246538</updated>
+    </task>
+    <task id="LOCAL-00058" summary="Modificación del Main">
+      <created>1679594257953</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1679594257953</updated>
+    </task>
+    <option name="localTasksCounter" value="59" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -409,7 +408,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Modificacion de la clase de juego BlackJack" />
     <MESSAGE value="BlackJack. Creación del método newCard" />
     <MESSAGE value="BlackJack. Creación del método stillInGame" />
     <MESSAGE value="BlackJack. Modificacion del método stillInGame" />
@@ -427,13 +425,14 @@
     <MESSAGE value="Modificación del main" />
     <MESSAGE value="Modificación del texto" />
     <MESSAGE value="Creacion del juego carta alta" />
-    <MESSAGE value="Modificación del Main" />
     <MESSAGE value="Modificación del juego Carta Alta" />
     <MESSAGE value="Modificación de la clase texts" />
     <MESSAGE value="Modificación del juego BlackJack" />
     <MESSAGE value="Modificación del juego CartaAlta" />
     <MESSAGE value="Modificación de las clases Card y Main" />
     <MESSAGE value="Creación del juego Ruleta" />
-    <option name="LAST_COMMIT_MESSAGE" value="Creación del juego Ruleta" />
+    <MESSAGE value="Modificación de los textos" />
+    <MESSAGE value="Modificación del Main" />
+    <option name="LAST_COMMIT_MESSAGE" value="Modificación del Main" />
   </component>
 </project>
