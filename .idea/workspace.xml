@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e926a721-1e80-4da7-b754-441884e1f532" name="Changes" comment="Modificación del Main">
-      <change afterPath="$PROJECT_DIR$/src/main/java/elements/Pocket.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="e926a721-1e80-4da7-b754-441884e1f532" name="Changes" comment="Creación de la clase Pocket">
+      <change beforePath="$PROJECT_DIR$/src/main/java/elements/Pocket.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/elements/Pocket.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/games/Roulette.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/games/Roulette.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,13 +49,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1677011413913</updated>
-    </task>
-    <task id="LOCAL-00010" summary="Modificación del Main. Pruebas">
-      <created>1677183046607</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1677183046607</updated>
     </task>
     <task id="LOCAL-00011" summary="Creación de metodos de valor de carta en la baraja francesa">
       <created>1677493161353</created>
@@ -393,7 +386,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679594257953</updated>
     </task>
-    <option name="localTasksCounter" value="59" />
+    <task id="LOCAL-00059" summary="Creación de la clase Pocket">
+      <created>1679690441732</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1679690441733</updated>
+    </task>
+    <option name="localTasksCounter" value="60" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -408,7 +408,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="BlackJack. Creación del método newCard" />
     <MESSAGE value="BlackJack. Creación del método stillInGame" />
     <MESSAGE value="BlackJack. Modificacion del método stillInGame" />
     <MESSAGE value="BlackJack. Modificacion del método game" />
@@ -433,6 +432,7 @@
     <MESSAGE value="Creación del juego Ruleta" />
     <MESSAGE value="Modificación de los textos" />
     <MESSAGE value="Modificación del Main" />
-    <option name="LAST_COMMIT_MESSAGE" value="Modificación del Main" />
+    <MESSAGE value="Creación de la clase Pocket" />
+    <option name="LAST_COMMIT_MESSAGE" value="Creación de la clase Pocket" />
   </component>
 </project>

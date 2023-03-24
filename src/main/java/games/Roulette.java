@@ -1,9 +1,13 @@
 package games;
 
+import elements.Pocket;
+
 import java.util.Random;
 import java.util.Scanner;
 
 public class Roulette {
+
+    Pocket pocket;
 
     public Roulette() {
         // Inicializar la ruleta
@@ -24,6 +28,8 @@ public class Roulette {
         } else {
             System.out.println("Lo siento, no has ganado.");
         }
+
+        pocket = new Pocket();
     }
 
 }
