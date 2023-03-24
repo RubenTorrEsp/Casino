@@ -12,5 +12,6 @@ public class Pocket {
 
     public void newLaunch(){
         number = (int)(Math.random()*36);
+        System.out.println("No va mas...... "+number);
     }
 }
