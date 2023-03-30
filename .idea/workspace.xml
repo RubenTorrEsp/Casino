@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e926a721-1e80-4da7-b754-441884e1f532" name="Changes" comment="Modificacion de los texts">
+    <list default="true" id="e926a721-1e80-4da7-b754-441884e1f532" name="Changes" comment="Modificacion del juego Ruleta">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/elements/Texts.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/elements/Texts.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/games/Roulette.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/games/Roulette.java" afterDir="false" />
@@ -50,20 +50,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1677011413913</updated>
-    </task>
-    <task id="LOCAL-00016" summary="Modificacion de la clase de juego BlackJack">
-      <created>1677616454197</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1677616454197</updated>
-    </task>
-    <task id="LOCAL-00017" summary="Modificacion de la clase de juego BlackJack">
-      <created>1677618482955</created>
-      <option name="number" value="00017" />
-      <option name="presentableId" value="LOCAL-00017" />
-      <option name="project" value="LOCAL" />
-      <updated>1677618482955</updated>
     </task>
     <task id="LOCAL-00018" summary="Modificacion de la clase de juego BlackJack">
       <created>1677703212745</created>
@@ -394,7 +380,21 @@
       <option name="project" value="LOCAL" />
       <updated>1679934154873</updated>
     </task>
-    <option name="localTasksCounter" value="65" />
+    <task id="LOCAL-00065" summary="Modificacion de los texts">
+      <created>1680201064298</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1680201064298</updated>
+    </task>
+    <task id="LOCAL-00066" summary="Modificacion del juego Ruleta">
+      <created>1680201083236</created>
+      <option name="number" value="00066" />
+      <option name="presentableId" value="LOCAL-00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1680201083237</updated>
+    </task>
+    <option name="localTasksCounter" value="67" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -432,8 +432,8 @@
     <MESSAGE value="Creación de la clase Pocket" />
     <MESSAGE value="Modificacion de la clase Pocket" />
     <MESSAGE value="Creacion de la clase Pocket" />
-    <MESSAGE value="Modificacion del juego Ruleta" />
     <MESSAGE value="Modificacion de los texts" />
-    <option name="LAST_COMMIT_MESSAGE" value="Modificacion de los texts" />
+    <MESSAGE value="Modificacion del juego Ruleta" />
+    <option name="LAST_COMMIT_MESSAGE" value="Modificacion del juego Ruleta" />
   </component>
 </project>
