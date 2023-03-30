@@ -3,7 +3,7 @@ package games;
 import elements.Pocket;
 import elements.Texts;
 
-import java.util.Random;
+import java.util.Locale;
 import java.util.Scanner;
 
 public class Roulette {
@@ -24,6 +24,7 @@ public class Roulette {
             userNumber = Integer.parseInt(selection);
             switch (userNumber){
                 case 1 -> betNumber();
+                case 2 -> betColor();
                 default -> System.out.println(texts.notAvailable);
             }
         } catch (Exception e) {
@@ -49,6 +50,27 @@ public class Roulette {
         } else {
             System.out.println("Lo siento, no has ganado.");
         }
+    }
+
+    public void betColor(){
+        System.out.println(texts.rouletteChooseColor);
+        String selection = scanner.nextLine().toLowerCase(Locale.ROOT);
+        Boolean userNumberIsBlack = null;
+        switch (selection){
+            case "rojo" -> userNumberIsBlack = false;
+            case "negro" ->userNumberIsBlack = true;
+            default -> System.out.println("Seleccion no válida");
+        }
+
+        int winnerNumber = pocket.newLaunch();
+        Boolean winnerNumberIsBlack = pocket.isBlack(winnerNumber);
+
+        if(winnerNumberIsBlack) System.out.println("El número que ha salido es el "+winnerNumber+" y es NEGRO");
+        else System.out.println("El número que ha salido es el "+winnerNumber+" y es ROJO");
+
+        if(userNumberIsBlack == winnerNumberIsBlack) System.out.println("Has ganado");
+        else if(userNumberIsBlack == null);
+        else System.out.println("Has perdido");
     }
 
 }
