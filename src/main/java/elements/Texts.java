@@ -31,6 +31,7 @@ public class Texts {
     public String rouletteBet = "¿Que apuesta quieres realizar?\n1. Número\n2. Color\n3. Par-Impar\n4. Falta-Pasa";
     public String rouletteChooseNumber = "Elige un número entre 0 y 36: ";
     public String rouletteChooseColor = "Elige un color entre ROJO y NEGRO: ";
+    public String rouletteChoosePair = "Elige una paridad entre PAR o IMPAR: ";
 
 
 

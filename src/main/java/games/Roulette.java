@@ -25,6 +25,7 @@ public class Roulette {
             switch (userNumber){
                 case 1 -> betNumber();
                 case 2 -> betColor();
+                case 3 -> betPair();
                 default -> System.out.println(texts.notAvailable);
             }
         } catch (Exception e) {
@@ -70,6 +71,27 @@ public class Roulette {
 
         if(userNumberIsBlack == winnerNumberIsBlack) System.out.println("Has ganado");
         else if(userNumberIsBlack == null);
+        else System.out.println("Has perdido");
+    }
+
+    public void betPair(){
+        System.out.println(texts.rouletteChoosePair);
+        String selection = scanner.nextLine().toLowerCase(Locale.ROOT);
+        Boolean userNumberIsPair = null;
+        switch (selection){
+            case "par" -> userNumberIsPair = true;
+            case "impar" -> userNumberIsPair = false;
+            default -> System.out.println(texts.notAvailable);
+        }
+
+        int winnerNumber = pocket.newLaunch();
+        Boolean winnerNumberIsPair = pocket.isPair(winnerNumber);
+
+        if(winnerNumberIsPair) System.out.println("El número que ha salido es el "+winnerNumber+" y es PAR");
+        else System.out.println("El número que ha salido es el "+winnerNumber+" y es IMPAR");
+
+        if(userNumberIsPair == winnerNumberIsPair) System.out.println("Has ganado");
+        else if(userNumberIsPair == null);
         else System.out.println("Has perdido");
     }
 

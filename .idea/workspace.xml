@@ -51,20 +51,6 @@
       <option name="presentableId" value="Default" />
       <updated>1677011413913</updated>
     </task>
-    <task id="LOCAL-00018" summary="Modificacion de la clase de juego BlackJack">
-      <created>1677703212745</created>
-      <option name="number" value="00018" />
-      <option name="presentableId" value="LOCAL-00018" />
-      <option name="project" value="LOCAL" />
-      <updated>1677703212745</updated>
-    </task>
-    <task id="LOCAL-00019" summary="Modificacion de la clase de juego BlackJack">
-      <created>1677707551639</created>
-      <option name="number" value="00019" />
-      <option name="presentableId" value="LOCAL-00019" />
-      <option name="project" value="LOCAL" />
-      <updated>1677707551639</updated>
-    </task>
     <task id="LOCAL-00020" summary="BlackJack. Creación del método newCard">
       <created>1677707865264</created>
       <option name="number" value="00020" />
@@ -394,7 +380,21 @@
       <option name="project" value="LOCAL" />
       <updated>1680201083237</updated>
     </task>
-    <option name="localTasksCounter" value="67" />
+    <task id="LOCAL-00067" summary="Modificacion del juego Ruleta">
+      <created>1680202484199</created>
+      <option name="number" value="00067" />
+      <option name="presentableId" value="LOCAL-00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1680202484199</updated>
+    </task>
+    <task id="LOCAL-00068" summary="Modificacion del juego Ruleta">
+      <created>1680202492927</created>
+      <option name="number" value="00068" />
+      <option name="presentableId" value="LOCAL-00068" />
+      <option name="project" value="LOCAL" />
+      <updated>1680202492927</updated>
+    </task>
+    <option name="localTasksCounter" value="69" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
