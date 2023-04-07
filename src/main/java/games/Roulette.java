@@ -12,6 +12,7 @@ public class Roulette {
     Pocket pocket = new Pocket();
     Texts texts = new Texts();
     int userNumber = 37;
+    int money;
 
     public Roulette() {
         System.out.println(texts.rouletteWellcome);
@@ -37,6 +38,8 @@ public class Roulette {
     public void betNumber(){
         System.out.print(texts.rouletteChooseNumber);
         String selection = scanner.nextLine();
+        System.out.print(texts.quantityToPlay);
+        money = scanner.nextInt();
         try{
             userNumber = Integer.parseInt(selection);
         } catch (Exception e) {
@@ -48,6 +51,7 @@ public class Roulette {
 
         if (userNumber == winnerNumber) {
             System.out.println("Felicidades, has ganado!");
+            money = money * 36;
         } else {
             System.out.println("Lo siento, no has ganado.");
         }
@@ -69,7 +73,10 @@ public class Roulette {
         if(winnerNumberIsBlack) System.out.println("El número que ha salido es el "+winnerNumber+" y es NEGRO");
         else System.out.println("El número que ha salido es el "+winnerNumber+" y es ROJO");
 
-        if(userNumberIsBlack == winnerNumberIsBlack) System.out.println("Has ganado");
+        if(userNumberIsBlack == winnerNumberIsBlack) {
+            System.out.println("Has ganado");
+            money = money * 2;
+        }
         else if(userNumberIsBlack == null);
         else System.out.println("Has perdido");
     }
@@ -90,9 +97,12 @@ public class Roulette {
         if(winnerNumberIsPair) System.out.println("El número que ha salido es el "+winnerNumber+" y es PAR");
         else System.out.println("El número que ha salido es el "+winnerNumber+" y es IMPAR");
 
-        if(userNumberIsPair == winnerNumberIsPair) System.out.println("Has ganado");
+        if(userNumberIsPair == winnerNumberIsPair) {
+            money = money * 2;
+            System.out.println("Has ganado. Ahora tienes "+money+" euros.");
+        }
         else if(userNumberIsPair == null);
-        else System.out.println("Has perdido");
+        else System.out.println("Has perdido. Te quedas a 0");
     }
 
 }
