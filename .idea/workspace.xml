@@ -5,7 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e926a721-1e80-4da7-b754-441884e1f532" name="Changes" comment="Modificacion del juego Ruleta y los texts">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/games/Roulette.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/games/Roulette.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -49,13 +48,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1677011413913</updated>
-    </task>
-    <task id="LOCAL-00021" summary="BlackJack. Creación del método stillInGame">
-      <created>1678383196822</created>
-      <option name="number" value="00021" />
-      <option name="presentableId" value="LOCAL-00021" />
-      <option name="project" value="LOCAL" />
-      <updated>1678383196822</updated>
     </task>
     <task id="LOCAL-00022" summary="BlackJack. Modificacion del método stillInGame">
       <created>1678383988512</created>
@@ -393,7 +385,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680689000033</updated>
     </task>
-    <option name="localTasksCounter" value="70" />
+    <task id="LOCAL-00070" summary="Modificacion del juego Ruleta y los texts">
+      <created>1680877983947</created>
+      <option name="number" value="00070" />
+      <option name="presentableId" value="LOCAL-00070" />
+      <option name="project" value="LOCAL" />
+      <updated>1680877983948</updated>
+    </task>
+    <option name="localTasksCounter" value="71" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

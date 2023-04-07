@@ -17,8 +17,10 @@ public class Roulette {
     public Roulette() {
         System.out.println(texts.rouletteWellcome);
 
-        System.out.println(texts.rouletteBet);
+        System.out.print(texts.quantityToPlay);
+        money = Integer.parseInt(scanner.nextLine());
 
+        System.out.println(texts.rouletteBet);
         String selection = scanner.nextLine();
 
         try{
@@ -38,8 +40,6 @@ public class Roulette {
     public void betNumber(){
         System.out.print(texts.rouletteChooseNumber);
         String selection = scanner.nextLine();
-        System.out.print(texts.quantityToPlay);
-        money = scanner.nextInt();
         try{
             userNumber = Integer.parseInt(selection);
         } catch (Exception e) {
