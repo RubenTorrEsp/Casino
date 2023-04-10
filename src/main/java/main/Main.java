@@ -1,9 +1,9 @@
 package main;
 
-import elements.*;
 import games.BlackJack;
 import games.CartaAlta;
 import games.Roulette;
+import utils.Texts;
 
 import java.util.Scanner;
 
