@@ -2,7 +2,7 @@ package games;
 
 import elements.Card;
 import elements.FrenchDeck;
-import elements.Texts;
+import utils.Texts;
 
 import java.util.Scanner;
 

@@ -1,7 +1,7 @@
 package games;
 
 import elements.Pocket;
-import elements.Texts;
+import utils.Texts;
 
 import java.util.Locale;
 import java.util.Scanner;
