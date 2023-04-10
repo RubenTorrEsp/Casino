@@ -14,4 +14,27 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
 
+    <dependencies>
+        <!-- Dependencia principal de Hibernate -->
+        <dependency>
+            <groupId>org.hibernate</groupId>
+            <artifactId>hibernate-core</artifactId>
+            <version>{versión de Hibernate}</version>
+        </dependency>
+
+        <!-- Dependencia para usar Hibernate con JPA -->
+        <dependency>
+            <groupId>org.hibernate</groupId>
+            <artifactId>hibernate-entitymanager</artifactId>
+            <version>{versión de Hibernate}</version>
+        </dependency>
+
+        <!-- Dependencia para usar el proveedor de conexión a la base de datos de MySQL -->
+        <dependency>
+            <groupId>mysql</groupId>
+            <artifactId>mysql-connector-java</artifactId>
+            <version>{versión de MySQL Connector/J}</version>
+        </dependency>
+    </dependencies>
+
 </project>
