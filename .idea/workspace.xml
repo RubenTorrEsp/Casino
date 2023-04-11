@@ -4,15 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e926a721-1e80-4da7-b754-441884e1f532" name="Changes" comment="Modificacion del juego Ruleta y los texts">
-      <change afterPath="$PROJECT_DIR$/src/main/java/utils/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/elements/Texts.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/utils/Texts.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/games/BlackJack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/games/BlackJack.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/games/CartaAlta.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/games/CartaAlta.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/games/Roulette.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/games/Roulette.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/main/Main.java" afterDir="false" />
-    </list>
+    <list default="true" id="e926a721-1e80-4da7-b754-441884e1f532" name="Changes" comment="Creacion de la clase User" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -54,41 +46,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1677011413913</updated>
-    </task>
-    <task id="LOCAL-00023" summary="BlackJack. Modificacion del método game">
-      <created>1678733610830</created>
-      <option name="number" value="00023" />
-      <option name="presentableId" value="LOCAL-00023" />
-      <option name="project" value="LOCAL" />
-      <updated>1678733610830</updated>
-    </task>
-    <task id="LOCAL-00024" summary="BlackJack. Modificacion del método game">
-      <created>1678738535606</created>
-      <option name="number" value="00024" />
-      <option name="presentableId" value="LOCAL-00024" />
-      <option name="project" value="LOCAL" />
-      <updated>1678738535606</updated>
-    </task>
-    <task id="LOCAL-00025" summary="BlackJack. Modificacion del método game">
-      <created>1678738684736</created>
-      <option name="number" value="00025" />
-      <option name="presentableId" value="LOCAL-00025" />
-      <option name="project" value="LOCAL" />
-      <updated>1678738684736</updated>
-    </task>
-    <task id="LOCAL-00026" summary="BlackJack. Creación del método crupierPlays">
-      <created>1678738937398</created>
-      <option name="number" value="00026" />
-      <option name="presentableId" value="LOCAL-00026" />
-      <option name="project" value="LOCAL" />
-      <updated>1678738937398</updated>
-    </task>
-    <task id="LOCAL-00027" summary="BlackJack. Modificacion del método crupierPlays">
-      <created>1678739347827</created>
-      <option name="number" value="00027" />
-      <option name="presentableId" value="LOCAL-00027" />
-      <option name="project" value="LOCAL" />
-      <updated>1678739347827</updated>
     </task>
     <task id="LOCAL-00028" summary="Creación de la clase &quot;Card&quot; y modificación de las barajas, de forma que sean listas.">
       <created>1678992245921</created>
@@ -398,7 +355,42 @@
       <option name="project" value="LOCAL" />
       <updated>1680878295783</updated>
     </task>
-    <option name="localTasksCounter" value="72" />
+    <task id="LOCAL-00072" summary="Modificacion de las clases de juegos">
+      <created>1681147509926</created>
+      <option name="number" value="00072" />
+      <option name="presentableId" value="LOCAL-00072" />
+      <option name="project" value="LOCAL" />
+      <updated>1681147509926</updated>
+    </task>
+    <task id="LOCAL-00073" summary="Modificacion del main">
+      <created>1681147524778</created>
+      <option name="number" value="00073" />
+      <option name="presentableId" value="LOCAL-00073" />
+      <option name="project" value="LOCAL" />
+      <updated>1681147524778</updated>
+    </task>
+    <task id="LOCAL-00074" summary="Modificacion del pom">
+      <created>1681147542968</created>
+      <option name="number" value="00074" />
+      <option name="presentableId" value="LOCAL-00074" />
+      <option name="project" value="LOCAL" />
+      <updated>1681147542968</updated>
+    </task>
+    <task id="LOCAL-00075" summary="Modificacion de la clase texts">
+      <created>1681147559314</created>
+      <option name="number" value="00075" />
+      <option name="presentableId" value="LOCAL-00075" />
+      <option name="project" value="LOCAL" />
+      <updated>1681147559314</updated>
+    </task>
+    <task id="LOCAL-00076" summary="Creacion de la clase User">
+      <created>1681147583543</created>
+      <option name="number" value="00076" />
+      <option name="presentableId" value="LOCAL-00076" />
+      <option name="project" value="LOCAL" />
+      <updated>1681147583543</updated>
+    </task>
+    <option name="localTasksCounter" value="77" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -413,11 +405,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Creación de la clase &quot;Card&quot; y modificación de las barajas, de forma que sean listas." />
-    <MESSAGE value="Creación de los métodos newCard" />
-    <MESSAGE value="Modificacion del juego BlackJack" />
-    <MESSAGE value="Ampliacion de los textos predefinidos" />
-    <MESSAGE value="Modificación del Main. Ahora te deja elegir el juego." />
     <MESSAGE value="Limpieza del switch case" />
     <MESSAGE value="Limpieza del codigo" />
     <MESSAGE value="Modificación de textos" />
@@ -438,6 +425,11 @@
     <MESSAGE value="Modificacion de los texts" />
     <MESSAGE value="Modificacion del juego Ruleta" />
     <MESSAGE value="Modificacion del juego Ruleta y los texts" />
-    <option name="LAST_COMMIT_MESSAGE" value="Modificacion del juego Ruleta y los texts" />
+    <MESSAGE value="Modificacion de las clases de juegos" />
+    <MESSAGE value="Modificacion del main" />
+    <MESSAGE value="Modificacion del pom" />
+    <MESSAGE value="Modificacion de la clase texts" />
+    <MESSAGE value="Creacion de la clase User" />
+    <option name="LAST_COMMIT_MESSAGE" value="Creacion de la clase User" />
   </component>
 </project>
