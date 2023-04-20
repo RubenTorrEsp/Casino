@@ -48,4 +48,8 @@ public class Main {
         } while (!correctSelection);
     }
 
+    public static void nuevoUser(){
+
+    }
+
 }
