@@ -3,6 +3,7 @@ package games;
 import elements.Card;
 import elements.FrenchDeck;
 import utils.Texts;
+import utils.User;
 
 import java.util.Scanner;
 
@@ -12,24 +13,29 @@ public class BlackJack {
     Texts texts = new Texts();
     FrenchDeck deck;
     Card card;
+    User user;
     int playerValue;
     int crupierValue;
     int money;
+    int ahorros;
     Boolean continueGame = true;
 
-    public BlackJack(){
+    public BlackJack(User user){
         deck = new FrenchDeck();
         deck.shuffleCards();
-        wellcome();
+        wellcome(user);
     }
 
-    public void wellcome(){
+    public void wellcome(User user){
+        this.user = user;
+        this.ahorros = user.getMoney();
         System.out.println(texts.blackJackWellcome+"\n"+texts.quantityToPlay);
         String enter = scanner.nextLine();
         try {
-            int quantity = Integer.parseInt(enter);
-            System.out.println(texts.correctBet(quantity));
-            money = quantity;
+            money = Integer.parseInt(enter);
+            System.out.println(texts.correctBet(money));
+            ahorros = ahorros - money;
+            System.out.println("Te quedan "+ahorros+" en la cartera");
             game();
         } catch (Exception e) {
             System.out.println("Lo siento, pero "+enter+" no es una cantidad válida. Anda a tomar por culo.");
@@ -89,11 +95,14 @@ public class BlackJack {
             System.out.println(" La banca gana.");
             money = 0;
         }
-        else if (crupierValue == playerValue) System.out.println(" Empate. No pierdes, pero no te flipes que tampoco ganas.");
+        else if (crupierValue == playerValue) {
+            System.out.println(" Empate. No pierdes, pero no te flipes que tampoco ganas.");
+            ahorros = ahorros + money;
+        }
         else {
             System.out.println(" Has ganado. MAQUINON!!");
-            money = money*2;
+            ahorros = ahorros + (money*2);
         }
-        System.out.println("Ahora tienes "+money+" euros.");
+        System.out.println("Ahora tienes "+ahorros+" euros.");
     }
 }
