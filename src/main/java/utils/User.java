@@ -6,6 +6,10 @@ public class User {
     String userName;
     int money;
 
+    public User(String name, int money){
+
+    }
+
     public int getId() {
         return id;
     }

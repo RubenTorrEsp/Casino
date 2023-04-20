@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e926a721-1e80-4da7-b754-441884e1f532" name="Changes" comment="Creacion de la clase User" />
+    <list default="true" id="e926a721-1e80-4da7-b754-441884e1f532" name="Changes" comment="Creacion de la clase User">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/main/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/utils/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/utils/User.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -46,13 +50,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1677011413913</updated>
-    </task>
-    <task id="LOCAL-00028" summary="Creación de la clase &quot;Card&quot; y modificación de las barajas, de forma que sean listas.">
-      <created>1678992245921</created>
-      <option name="number" value="00028" />
-      <option name="presentableId" value="LOCAL-00028" />
-      <option name="project" value="LOCAL" />
-      <updated>1678992245921</updated>
     </task>
     <task id="LOCAL-00029" summary="Creación de los métodos newCard">
       <created>1678993954435</created>
@@ -390,7 +387,14 @@
       <option name="project" value="LOCAL" />
       <updated>1681147583543</updated>
     </task>
-    <option name="localTasksCounter" value="77" />
+    <task id="LOCAL-00077" summary="Creacion de la clase User">
+      <created>1681236189368</created>
+      <option name="number" value="00077" />
+      <option name="presentableId" value="LOCAL-00077" />
+      <option name="project" value="LOCAL" />
+      <updated>1681236189368</updated>
+    </task>
+    <option name="localTasksCounter" value="78" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
