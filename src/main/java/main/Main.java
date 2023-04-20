@@ -4,6 +4,7 @@ import games.BlackJack;
 import games.CartaAlta;
 import games.Roulette;
 import utils.Texts;
+import utils.User;
 
 import java.util.Scanner;
 
@@ -14,12 +15,12 @@ public class Main {
 
     static Boolean correctSelection = true;
 
-
-
     public static void main(String[] args) {
         System.out.println(texts.wellcome);
         selectGame();
     }
+
+    User Ruben = new User("Ruben", 1000);
 
     public static void selectGame() {
         do {
