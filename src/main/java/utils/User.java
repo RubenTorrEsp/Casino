@@ -7,7 +7,8 @@ public class User {
     int money;
 
     public User(String name, int money){
-
+        this.userName = name;
+        this.money = money;
     }
 
     public int getId() {
