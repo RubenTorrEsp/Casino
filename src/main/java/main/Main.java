@@ -20,7 +20,7 @@ public class Main {
         selectGame();
     }
 
-    User Ruben = new User("Ruben", 1000);
+    static User Ruben = new User("Ruben", 1000);
 
     public static void selectGame() {
         do {
@@ -32,7 +32,7 @@ public class Main {
                     correctSelection = true;
                 }
                 case "1" -> {
-                    new BlackJack();
+                    new BlackJack(Ruben);
                     correctSelection = true;
                 }
                 case "2" -> {
