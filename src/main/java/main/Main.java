@@ -40,7 +40,7 @@ public class Main {
                     correctSelection = true;
                 }
                 case "3" -> {
-                    new Roulette();
+                    new Roulette(Ruben);
                     correctSelection = true;
                 }
                 default -> {
