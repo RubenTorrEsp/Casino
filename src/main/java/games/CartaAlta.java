@@ -3,6 +3,7 @@ package games;
 import elements.Card;
 import elements.SpanishDeck;
 import utils.Texts;
+import utils.User;
 
 import java.util.Scanner;
 
@@ -17,7 +18,12 @@ public class CartaAlta {
     int crupierValue;
     int apuesta;
 
-    public CartaAlta(){
+    User user;
+    int ahorros;
+
+    public CartaAlta(User user){
+        this.user = user;
+        this.ahorros = user.getMoney();
         System.out.println(texts.highCardWellcome);
         System.out.println(texts.quantityToPlay);
         String enter = scanner.nextLine();
@@ -47,9 +53,9 @@ public class CartaAlta {
     }
 
     public void checkVictory() {
-        if (playerValue > crupierValue) System.out.println("Has ganado. Ahora tienes " + (apuesta * 2) + "€");
-        else if (playerValue == crupierValue) System.out.println("Empate. Te quedas con "+ apuesta + "€");
-        else System.out.println("Has perdido. Te quedas a 0");
+        if (playerValue > crupierValue) System.out.println("Has ganado. Ahora tienes " + (ahorros + (apuesta * 2)) + "€");
+        else if (playerValue == crupierValue) System.out.println("Empate. Te quedas con "+ (ahorros - apuesta) + "€");
+        else System.out.println("Has perdido. Te quedas con " + ahorros);
     }
 
 }
