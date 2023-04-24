@@ -36,7 +36,7 @@ public class Main {
                     correctSelection = true;
                 }
                 case "2" -> {
-                    new CartaAlta();
+                    new CartaAlta(Ruben);
                     correctSelection = true;
                 }
                 case "3" -> {
@@ -49,10 +49,6 @@ public class Main {
                 }
             }
         } while (!correctSelection);
-    }
-
-    public static void nuevoUser(){
-
     }
 
 }
