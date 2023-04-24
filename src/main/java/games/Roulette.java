@@ -2,6 +2,7 @@ package games;
 
 import elements.Pocket;
 import utils.Texts;
+import utils.User;
 
 import java.util.Locale;
 import java.util.Scanner;
@@ -14,7 +15,12 @@ public class Roulette {
     int userNumber = 37;
     int money;
 
-    public Roulette() {
+    User user;
+    int ahorros;
+
+    public Roulette(User user) {
+        this.user = user;
+        this.ahorros = user.getMoney();
         System.out.println(texts.rouletteWellcome);
 
         System.out.print(texts.quantityToPlay);
@@ -74,11 +80,11 @@ public class Roulette {
         else System.out.println("El número que ha salido es el "+winnerNumber+" y es ROJO");
 
         if(userNumberIsBlack == winnerNumberIsBlack) {
-            System.out.println("Has ganado");
-            money = money * 2;
+            System.out.println("Has ganado, ahora tienes " + (ahorros + money) + " euros.");
         }
         else if(userNumberIsBlack == null);
-        else System.out.println("Has perdido");
+        else System.out.println("Has perdido, ahora tienes " + (ahorros - money) + " euros.");
+                    ;
     }
 
     public void betPair(){
@@ -98,11 +104,10 @@ public class Roulette {
         else System.out.println("El número que ha salido es el "+winnerNumber+" y es IMPAR");
 
         if(userNumberIsPair == winnerNumberIsPair) {
-            money = money * 2;
-            System.out.println("Has ganado. Ahora tienes "+money+" euros.");
+            System.out.println("Has ganado, ahora tienes " + (ahorros + money) + " euros.");
         }
         else if(userNumberIsPair == null);
-        else System.out.println("Has perdido. Te quedas a 0");
+        else System.out.println("Has perdido, ahora tienes " + (ahorros - money) + " euros.");
     }
 
 }

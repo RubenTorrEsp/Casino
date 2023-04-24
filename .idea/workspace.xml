@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e926a721-1e80-4da7-b754-441884e1f532" name="Changes" comment="User añadido al juego ruleta">
+    <list default="true" id="e926a721-1e80-4da7-b754-441884e1f532" name="Changes" comment="Modificacion del Main">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/games/CartaAlta.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/games/CartaAlta.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/games/Roulette.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/games/Roulette.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/main/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -50,20 +50,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1677011413913</updated>
-    </task>
-    <task id="LOCAL-00035" summary="Limpieza del switch case">
-      <created>1679001514517</created>
-      <option name="number" value="00035" />
-      <option name="presentableId" value="LOCAL-00035" />
-      <option name="project" value="LOCAL" />
-      <updated>1679001514517</updated>
-    </task>
-    <task id="LOCAL-00036" summary="Limpieza del codigo">
-      <created>1679001624116</created>
-      <option name="number" value="00036" />
-      <option name="presentableId" value="LOCAL-00036" />
-      <option name="project" value="LOCAL" />
-      <updated>1679001624116</updated>
     </task>
     <task id="LOCAL-00037" summary="Limpieza del codigo">
       <created>1679087177656</created>
@@ -394,7 +380,21 @@
       <option name="project" value="LOCAL" />
       <updated>1682018536363</updated>
     </task>
-    <option name="localTasksCounter" value="84" />
+    <task id="LOCAL-00084" summary="User añadido al juego Carta Alta">
+      <created>1682357757310</created>
+      <option name="number" value="00084" />
+      <option name="presentableId" value="LOCAL-00084" />
+      <option name="project" value="LOCAL" />
+      <updated>1682357757310</updated>
+    </task>
+    <task id="LOCAL-00085" summary="Modificacion del Main">
+      <created>1682357772150</created>
+      <option name="number" value="00085" />
+      <option name="presentableId" value="LOCAL-00085" />
+      <option name="project" value="LOCAL" />
+      <updated>1682357772150</updated>
+    </task>
+    <option name="localTasksCounter" value="86" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -409,8 +409,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Modificación del main" />
-    <MESSAGE value="Modificación del texto" />
     <MESSAGE value="Creacion del juego carta alta" />
     <MESSAGE value="Modificación del juego Carta Alta" />
     <MESSAGE value="Modificación de la clase texts" />
@@ -434,6 +432,8 @@
     <MESSAGE value="A" />
     <MESSAGE value="User añadido al main" />
     <MESSAGE value="User añadido al juego ruleta" />
-    <option name="LAST_COMMIT_MESSAGE" value="User añadido al juego ruleta" />
+    <MESSAGE value="User añadido al juego Carta Alta" />
+    <MESSAGE value="Modificacion del Main" />
+    <option name="LAST_COMMIT_MESSAGE" value="Modificacion del Main" />
   </component>
 </project>
