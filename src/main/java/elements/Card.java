@@ -1,5 +1,7 @@
 package elements;
 
+import java.util.Objects;
+
 public class Card {
     private String rank;
     private String suit;
@@ -27,31 +29,34 @@ public class Card {
 
     public int getValue() {
         int value = 0;
-        if (rank == "A" || rank == "1") {
+        if (Objects.equals(rank, "A") || Objects.equals(rank, "1")) {
             value = 1;
-        } else if (rank == "2") {
+        } else if (Objects.equals(rank, "2")) {
             value = 2;
-        } else if (rank == "3") {
+        } else if (Objects.equals(rank, "3")) {
             value = 3;
-        } else if (rank == "4") {
+        } else if (Objects.equals(rank, "4")) {
             value = 4;
-        } else if (rank == "5") {
+        } else if (Objects.equals(rank, "5")) {
             value = 5;
-        } else if (rank == "6") {
+        } else if (Objects.equals(rank, "6")) {
             value = 6;
-        } else if (rank == "7") {
+        } else if (Objects.equals(rank, "7")) {
             value = 7;
-        } else if (rank == "8") {
+        } else if (Objects.equals(rank, "8")) {
             value = 8;
-        } else if (rank == "9") {
+        } else if (Objects.equals(rank, "9")) {
             value = 9;
-        } else if (rank == "10" || rank == "sota") {
+        } else if (Objects.equals(rank, "10")
+                || Objects.equals(rank, "sota")) {
             value = 10;
-        } else if (rank == "J" || rank == "caballo") {
+        } else if (Objects.equals(rank, "J")
+                || Objects.equals(rank, "caballo")) {
             value = 11;
-        } else if (rank == "Q" || rank == "rey") {
+        } else if (Objects.equals(rank, "Q")
+                || Objects.equals(rank, "rey")) {
             value = 12;
-        } else if (rank == "K") {
+        } else if (Objects.equals(rank, "K")) {
             value = 13;
         }
         return value;
@@ -59,25 +64,31 @@ public class Card {
 
     public int getValueCourtCards(){
         int value = 0;
-        if (rank == "A" || rank == "1") {
+        if (Objects.equals(rank, "A") || Objects.equals(rank, "1")) {
             value = 1;
-        } else if (rank == "2") {
+        } else if (Objects.equals(rank, "2")) {
             value = 2;
-        } else if (rank == "3") {
+        } else if (Objects.equals(rank, "3")) {
             value = 3;
-        } else if (rank == "4") {
+        } else if (Objects.equals(rank, "4")) {
             value = 4;
-        } else if (rank == "5") {
+        } else if (Objects.equals(rank, "5")) {
             value = 5;
-        } else if (rank == "6") {
+        } else if (Objects.equals(rank, "6")) {
             value = 6;
-        } else if (rank == "7") {
+        } else if (Objects.equals(rank, "7")) {
             value = 7;
-        } else if (rank == "8") {
+        } else if (Objects.equals(rank, "8")) {
             value = 8;
-        } else if (rank == "9") {
+        } else if (Objects.equals(rank, "9")) {
             value = 9;
-        } else if (rank == "10" || rank == "J" || rank == "Q" || rank == "K" || rank == "sota" || rank == "caballo" || rank == "rey") {
+        } else if (Objects.equals(rank, "10")
+                || Objects.equals(rank, "J")
+                || Objects.equals(rank, "Q")
+                || Objects.equals(rank, "K")
+                || Objects.equals(rank, "sota")
+                || Objects.equals(rank, "caballo")
+                || Objects.equals(rank, "rey")) {
             value = 10;
         }
         return value;
