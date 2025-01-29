@@ -7,8 +7,7 @@ public class Dice {
     }
 
     public int launch(){
-        int result = (int)(Math.random()*6+1);
-        return result;
+        return (int)(Math.random()*6+1);
     }
 
 }
