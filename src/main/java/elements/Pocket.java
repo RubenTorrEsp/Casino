@@ -15,12 +15,11 @@ public class Pocket {
 
     public int newLaunch(){
         Random r = new Random();
-        int winner = r.nextInt(37);
-        return winner;
+        return r.nextInt(37);
     }
 
     public Boolean isBlack(int number){
-        Boolean isBlack = false;
+        boolean isBlack = false;
         if (blackNumbers.contains(number)) isBlack = true;
         return isBlack;
     }
