@@ -6,7 +6,7 @@ import java.util.List;
 
 public class FrenchDeck {
 
-    private List<Card> cards;
+    private final List<Card> cards;
 
     public FrenchDeck(){
         String[] ranks = {"A", "2", "3", "4", "5", "6", "7", "8", "9", "10", "J", "Q", "K"};
