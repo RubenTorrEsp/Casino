@@ -25,13 +25,13 @@ public class Pocket {
     }
 
     public Boolean isPair(int number){
-        Boolean isPair = false;
+        boolean isPair = false;
         if (number % 2 == 0) isPair = true;
         return isPair;
     }
 
     public Boolean isPass(int number){
-        Boolean isPass = false;
+        boolean isPass = false;
         if (number >= 18) isPass = true;
         return isPass;
     }
