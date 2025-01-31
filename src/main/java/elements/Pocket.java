@@ -19,20 +19,17 @@ public class Pocket {
     }
 
     public Boolean isBlack(int number){
-        boolean isBlack = false;
-        if (blackNumbers.contains(number)) isBlack = true;
+        boolean isBlack = blackNumbers.contains(number);
         return isBlack;
     }
 
     public Boolean isPair(int number){
-        boolean isPair = false;
-        if (number % 2 == 0) isPair = true;
+        boolean isPair = number % 2 == 0;
         return isPair;
     }
 
     public Boolean isPass(int number){
-        boolean isPass = false;
-        if (number >= 18) isPass = true;
+        boolean isPass = number >= 18;
         return isPass;
     }
 }
