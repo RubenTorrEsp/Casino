@@ -25,9 +25,7 @@ public class FrenchDeck {
     }
 
     public Card newCard() {
-        if (cards.isEmpty()) {
-            return null;
-        }
+        if (cards.isEmpty()) return null;
         return cards.remove(0);
     }
 
