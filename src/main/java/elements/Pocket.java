@@ -27,7 +27,6 @@ public class Pocket {
     }
 
     public Boolean isPass(int number){
-        boolean isPass = number >= 18;
-        return isPass;
+        return number >= 18;
     }
 }
