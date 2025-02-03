@@ -19,8 +19,7 @@ public class Pocket {
     }
 
     public Boolean isBlack(int number){
-        boolean isBlack = blackNumbers.contains(number);
-        return isBlack;
+        return blackNumbers.contains(number);
     }
 
     public Boolean isPair(int number){
