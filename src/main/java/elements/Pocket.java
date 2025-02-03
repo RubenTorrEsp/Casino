@@ -23,8 +23,7 @@ public class Pocket {
     }
 
     public Boolean isPair(int number){
-        boolean isPair = number % 2 == 0;
-        return isPair;
+        return number % 2 == 0;
     }
 
     public Boolean isPass(int number){
