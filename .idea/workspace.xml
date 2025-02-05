@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e926a721-1e80-4da7-b754-441884e1f532" name="Changes" comment="Methodos reconvertidos a inline">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="e926a721-1e80-4da7-b754-441884e1f532" name="Changes" comment="Modificacion del workspace" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -411,7 +409,7 @@
       <option name="project" value="LOCAL" />
       <updated>1682357772150</updated>
     </task>
-    <option name="localTasksCounter" value="104" />
+    <option name="localTasksCounter" value="107" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -426,8 +424,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Modificacion del juego Ruleta" />
-    <MESSAGE value="Modificacion del juego Ruleta y los texts" />
     <MESSAGE value="Modificacion de las clases de juegos" />
     <MESSAGE value="Modificacion del pom" />
     <MESSAGE value="Modificacion de la clase texts" />
@@ -451,6 +447,8 @@
     <MESSAGE value="Variables booleanas cambiadas a método primitivo" />
     <MESSAGE value="Metodos if-else simplificados" />
     <MESSAGE value="Methodos reconvertidos a inline" />
-    <option name="LAST_COMMIT_MESSAGE" value="Methodos reconvertidos a inline" />
+    <MESSAGE value="Metodo de lanzamiento de 2 dados creado" />
+    <MESSAGE value="Modificacion del workspace" />
+    <option name="LAST_COMMIT_MESSAGE" value="Modificacion del workspace" />
   </component>
 </project>
