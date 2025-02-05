@@ -14,7 +14,12 @@ public class Dice {
         return launch()+launch();
     }
 
-    public int multiLaunch() {
-
+//    TODO: Probar
+    public int multiLaunch(int launches) {
+        int total = 0;
+        for (int i = 1; i<= launches; i++) {
+            total = total + launch();
+        }
+        return total;
     }
 }
