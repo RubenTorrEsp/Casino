@@ -14,4 +14,7 @@ public class Dice {
         return launch()+launch();
     }
 
+    public int multiLaunch() {
+
+    }
 }
