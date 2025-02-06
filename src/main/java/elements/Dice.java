@@ -10,10 +10,6 @@ public class Dice {
         return (int)(Math.random()*6+1);
     }
 
-    public int doubleLaunch() {
-        return launch()+launch();
-    }
-
 //    TODO: Probar
     public int multiLaunch(int launches) {
         int total = 0;
