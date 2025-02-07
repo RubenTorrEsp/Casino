@@ -8,7 +8,8 @@ public class Texts {
             "0. Salir" +
             "\n1. BlackJack." +
             "\n2. Carta alta." +
-            "\n3. Ruleta.";
+            "\n3. Ruleta." +
+            "\n4. Dados.";
     public String quantityToPlay = "¿Cuanto quieres apostar?";
     public String notImplemented = "Todavía no se puede. Pronto llegará.";
     public String thanks = "Gracias por jugar. Vuelva pronto.";
