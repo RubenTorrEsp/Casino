@@ -2,6 +2,7 @@ package main;
 
 import games.BlackJack;
 import games.CartaAlta;
+import games.Dados;
 import games.Roulette;
 import utils.Texts;
 import utils.User;
@@ -41,6 +42,10 @@ public class Main {
                 }
                 case "3" -> {
                     new Roulette(Ruben);
+                    correctSelection = true;
+                }
+                case "4" -> {
+                    new Dados();
                     correctSelection = true;
                 }
                 default -> {
