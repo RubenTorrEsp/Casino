@@ -36,7 +36,7 @@ public class CartaAlta {
             crupierSacaCarta();
             checkVictory();
         } catch (Exception e) {
-            System.out.println(notValidQuantity(enter));
+            System.out.println(texts.notValidQuantity(enter));
         }
     }
 
