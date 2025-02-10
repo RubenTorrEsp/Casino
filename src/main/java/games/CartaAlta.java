@@ -36,7 +36,7 @@ public class CartaAlta {
             crupierSacaCarta();
             checkVictory();
         } catch (Exception e) {
-            System.out.println("Lo siento, pero "+enter+" no es una cantidad válida. Anda a tomar por culo.");
+            System.out.println(notValidQuantity(enter));
         }
     }
 
