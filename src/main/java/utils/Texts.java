@@ -14,7 +14,7 @@ public class Texts {
     public String notImplemented = "Todavía no se puede. Pronto llegará.";
     public String thanks = "Gracias por jugar. Vuelva pronto.";
     public String notAvailable = "Opción no disponible. Seleccione otra.";
-    public String notValidQuantity(int quantity) { return "Lo siento, pero "+quantity+" no es una cantidad válida. Anda a tomar por culo.";}
+    public String notValidQuantity(String quantity) { return "Lo siento, pero "+quantity+" no es una cantidad válida. Anda a tomar por culo.";}
     public String correctBet(int quantity) { return "Genial! Ahora tienes "+quantity+" euros en fichas. Gástalos bien.";}
     public String crupierValue(int quantity) { return "El crupier ha sacado "+ quantity +" puntos.";}
     public String notValidValue(String quantity) { return quantity +" no es un número válido";}
