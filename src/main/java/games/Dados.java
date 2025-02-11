@@ -1,5 +1,7 @@
 package games;
 
+import utils.User;
+
 public class Dados {
 
     public Dados() {
