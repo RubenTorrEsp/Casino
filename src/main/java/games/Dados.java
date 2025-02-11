@@ -6,4 +6,8 @@ public class Dados {
         System.out.println("En proceso de creación");
     }
 
+    public Dados(User user) {
+
+    }
+
 }
