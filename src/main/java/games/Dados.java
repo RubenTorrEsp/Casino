@@ -1,6 +1,7 @@
 package games;
 
 import utils.User;
+import java.util.Scanner;
 
 public class Dados {
 
