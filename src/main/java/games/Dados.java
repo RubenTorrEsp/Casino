@@ -8,6 +8,7 @@ public class Dados {
     User user;
     int saldo;
 
+    int dadosValue;
     int apuesta;
 
     public Dados() {
