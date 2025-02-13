@@ -8,6 +8,8 @@ public class Dados {
     User user;
     int saldo;
 
+    int apuesta;
+
     public Dados() {
         System.out.println("En proceso de creación");
     }
