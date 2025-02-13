@@ -1,5 +1,6 @@
 package games;
 
+import elements.Dice;
 import utils.User;
 import java.util.Scanner;
 
@@ -18,6 +19,11 @@ public class Dados {
     public Dados(User user) {
         this.user = user;
         this.saldo = user.getMoney();
+    }
+
+    public void tirarDados() {
+        Dice dice = new Dice();
+        dadosValue = dice.multiLaunch(2);
     }
 
 }
