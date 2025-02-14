@@ -12,6 +12,8 @@ public class Dados {
     int dadosValue;
     int apuesta;
 
+    Scanner scanner = new Scanner(System.in);
+
     public Dados() {
         System.out.println("En proceso de creación");
     }
@@ -21,7 +23,7 @@ public class Dados {
         this.saldo = user.getMoney();
         System.out.println("Bienvenido al juego Dados");
 
-
+        String enter = scanner.nextLine();
     }
 
     public void tirarDados() {
