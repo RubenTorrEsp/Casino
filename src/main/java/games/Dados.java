@@ -25,5 +25,4 @@ public class Dados {
         Dice dice = new Dice();
         dadosValue = dice.multiLaunch(2);
     }
-
 }
