@@ -19,6 +19,9 @@ public class Dados {
     public Dados(User user) {
         this.user = user;
         this.saldo = user.getMoney();
+        System.out.println("Bienvenido al juego Dados");
+
+
     }
 
     public void tirarDados() {
