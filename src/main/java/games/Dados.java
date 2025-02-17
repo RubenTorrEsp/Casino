@@ -14,7 +14,6 @@ public class Dados {
     int apuesta;
 
     Texts texts = new Texts();
-
     Scanner scanner = new Scanner(System.in);
 
     public Dados() {
@@ -25,6 +24,7 @@ public class Dados {
         this.user = user;
         this.saldo = user.getMoney();
         System.out.println("Bienvenido al juego Dados");
+        System.out.println(texts.quantityToPlay);
         String enter = scanner.nextLine();
     }
 
