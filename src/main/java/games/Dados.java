@@ -1,6 +1,7 @@
 package games;
 
 import elements.Dice;
+import utils.Texts;
 import utils.User;
 import java.util.Scanner;
 
@@ -12,6 +13,8 @@ public class Dados {
     int dadosValue;
     int apuesta;
 
+    Texts texts = new Texts();
+
     Scanner scanner = new Scanner(System.in);
 
     public Dados() {
@@ -22,7 +25,6 @@ public class Dados {
         this.user = user;
         this.saldo = user.getMoney();
         System.out.println("Bienvenido al juego Dados");
-
         String enter = scanner.nextLine();
     }
 
