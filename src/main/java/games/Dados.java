@@ -26,6 +26,13 @@ public class Dados {
         System.out.println("Bienvenido al juego Dados");
         System.out.println(texts.quantityToPlay);
         String enter = scanner.nextLine();
+        try {
+            int quantity = Integer.parseInt(enter);
+            System.out.println(texts.correctBet(quantity));
+            apuesta = quantity;
+        } catch (Exception e) {
+            System.out.println(texts.notValidQuantity(enter));
+        }
     }
 
     public void tirarDados() {
