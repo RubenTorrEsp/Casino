@@ -13,6 +13,8 @@ public class Dados {
     int dadosValue;
     int apuesta;
 
+    int prevision;
+
     Texts texts = new Texts();
     Scanner scanner = new Scanner(System.in);
 
@@ -34,6 +36,14 @@ public class Dados {
             System.out.println(texts.notValidQuantity(enter));
         }
         System.out.println("¿A qué numero apuestas?");
+        enter = scanner.nextLine();
+        try {
+            int quantity = Integer.parseInt(enter);
+            System.out.println("Has apostado que sale el numero "+quantity);
+            prevision = quantity;
+        } catch (Exception e) {
+            System.out.println(texts.notValidQuantity(enter));
+        }
     }
 
     public void tirarDados() {
