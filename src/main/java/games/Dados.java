@@ -44,6 +44,7 @@ public class Dados {
         } catch (Exception e) {
             System.out.println(texts.notValidQuantity(enter));
         }
+        tirarDados();
     }
 
     public void tirarDados() {
