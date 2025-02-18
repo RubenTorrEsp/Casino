@@ -33,6 +33,7 @@ public class Dados {
         } catch (Exception e) {
             System.out.println(texts.notValidQuantity(enter));
         }
+        System.out.println("¿A qué numero apuestas?");
     }
 
     public void tirarDados() {
