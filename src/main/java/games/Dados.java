@@ -40,11 +40,13 @@ public class Dados {
         try {
             int tiradaDeDatos = Integer.parseInt(enter);
             System.out.println("Has apostado que sale el numero "+tiradaDeDatos);
+            prevision = tiradaDeDatos;
         } catch (Exception e) {
             System.out.println(texts.notValidQuantity(enter));
         }
         tirarDados();
         System.out.println("Has tirado los dados y ha salido el numero.... "+dadosValue);
+        if(dadosValue == prevision) System.out.println("Has ganado");
     }
 
     public void tirarDados() {
