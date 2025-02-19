@@ -47,6 +47,7 @@ public class Dados {
         tirarDados();
         System.out.println("Has tirado los dados y ha salido el numero.... "+dadosValue);
         if(dadosValue == prevision) System.out.println("Has ganado");
+        else System.out.println("Has perdido");
     }
 
     public void tirarDados() {
