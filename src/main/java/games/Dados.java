@@ -38,13 +38,13 @@ public class Dados {
         System.out.println("¿A qué numero apuestas?");
         enter = scanner.nextLine();
         try {
-            int quantity = Integer.parseInt(enter);
-            System.out.println("Has apostado que sale el numero "+quantity);
-            prevision = quantity;
+            int tiradaDeDatos = Integer.parseInt(enter);
+            System.out.println("Has apostado que sale el numero "+tiradaDeDatos);
         } catch (Exception e) {
             System.out.println(texts.notValidQuantity(enter));
         }
         tirarDados();
+        System.out.println("Has tirado los dados y ha salido el numero.... "+dadosValue);
     }
 
     public void tirarDados() {
