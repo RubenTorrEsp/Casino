@@ -50,6 +50,10 @@ public class Dados {
         else System.out.println("Has perdido");
     }
 
+    public boolean isAny7() {
+        return false;
+    }
+
     public void tirarDados() {
         Dice dice = new Dice();
         dadosValue = dice.multiLaunch(2);
