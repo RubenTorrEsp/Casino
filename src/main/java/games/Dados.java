@@ -50,7 +50,15 @@ public class Dados {
         else System.out.println("Has perdido");
     }
 
-    public boolean isAny7() {
+    public boolean betAny7() {
+        return false;
+    }
+
+    public boolean betAnyCrap() {
+        return false;
+    }
+
+    public boolean betEspecific(int bet) {
         return false;
     }
 
