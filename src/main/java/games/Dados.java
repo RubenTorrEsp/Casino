@@ -62,6 +62,10 @@ public class Dados {
         return false;
     }
 
+    public boolean betHornBet(int bet) {
+        return false;
+    }
+
     public void tirarDados() {
         Dice dice = new Dice();
         dadosValue = dice.multiLaunch(2);
