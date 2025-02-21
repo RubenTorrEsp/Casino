@@ -60,7 +60,7 @@ public class Dados {
 
     public boolean betEspecific(int bet) {
         dadosValue = tirarDados();
-        return false;
+        return bet==dadosValue;
     }
 
     public boolean betHornBet(int bet) {
