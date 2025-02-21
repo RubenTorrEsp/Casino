@@ -59,6 +59,7 @@ public class Dados {
     }
 
     public boolean betEspecific(int bet) {
+        dadosValue = tirarDados();
         return false;
     }
 
@@ -66,8 +67,7 @@ public class Dados {
         return false;
     }
 
-    public void tirarDados() {
-        Dice dice = new Dice();
-        dadosValue = dice.multiLaunch(2);
+    public static int tirarDados() {
+        return Dice.multiLaunch(2);
     }
 }
