@@ -44,7 +44,8 @@ public class Dados {
         } catch (Exception e) {
             System.out.println(texts.notValidQuantity(enter));
         }
-
+        if (betEspecific(prevision)) System.out.println("Has ganado");
+        else System.out.println("Has perdido");
     }
 
     public boolean betAny7() {
