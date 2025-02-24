@@ -44,13 +44,11 @@ public class Dados {
         } catch (Exception e) {
             System.out.println(texts.notValidQuantity(enter));
         }
-        tirarDados();
-        System.out.println("Has tirado los dados y ha salido el numero.... "+dadosValue);
-        if(dadosValue == prevision) System.out.println("Has ganado");
-        else System.out.println("Has perdido");
+
     }
 
     public boolean betAny7() {
+
         return false;
     }
 
@@ -60,6 +58,7 @@ public class Dados {
 
     public boolean betEspecific(int bet) {
         dadosValue = tirarDados();
+        System.out.println("Has tirado los dados y ha salido el numero.... "+dadosValue);
         return bet==dadosValue;
     }
 
