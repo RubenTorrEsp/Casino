@@ -5,11 +5,12 @@ public class Texts {
     //General texts
     public String wellcome = "Bienvenido a la app de casino. ¿A qué desea jugar?";
     public String availableGames =
-            "0. Salir" +
-            "\n1. BlackJack." +
-            "\n2. Carta alta." +
-            "\n3. Ruleta." +
-            "\n4. Dados.";
+        """
+            0. Salir\
+            1. BlackJack.\
+            2. Carta alta.\
+            3. Ruleta.\
+            4. Dados.""";
     public String quantityToPlay = "¿Cuanto quieres apostar?";
     public String notImplemented = "Todavía no se puede. Pronto llegará.";
     public String thanks = "Gracias por jugar. Vuelva pronto.";
