@@ -48,6 +48,11 @@ public class Dados {
         else System.out.println("Has perdido");
     }
 
+    public boolean betCraps() {
+
+        return false;
+    }
+
     public boolean betAny7() {
 
         return false;
