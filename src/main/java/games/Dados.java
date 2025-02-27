@@ -58,6 +58,7 @@ public class Dados {
             while (nuevaTirada != 7 && nuevaTirada != dadosValue) {
                 nuevaTirada = tirarDados();
             }
+            victoria = nuevaTirada != 7;
         }
         return victoria;
     }
