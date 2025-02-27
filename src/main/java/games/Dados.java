@@ -54,7 +54,7 @@ public class Dados {
         if (dadosValue == 7 || dadosValue == 11) victoria = true;
         else if (dadosValue == 2 || dadosValue == 3 || dadosValue == 12) victoria = false;
         else {
-            //TODO: Comportamiento de la fase del punto
+            int nuevaTirada = tirarDados();
             return false;
         }
         return victoria;
