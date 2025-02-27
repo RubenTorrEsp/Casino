@@ -55,7 +55,9 @@ public class Dados {
         else if (dadosValue == 2 || dadosValue == 3 || dadosValue == 12) victoria = false;
         else {
             int nuevaTirada = tirarDados();
-            return false;
+            while (nuevaTirada != 7 && nuevaTirada != dadosValue) {
+                nuevaTirada = tirarDados();
+            }
         }
         return victoria;
     }
