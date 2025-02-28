@@ -49,7 +49,6 @@ public class Dados {
     }
 
     public boolean betCraps() {
-        boolean victoria;
         dadosValue = tirarDados();
         if (dadosValue == 7 || dadosValue == 11) return true;
         else if (dadosValue == 2 || dadosValue == 3 || dadosValue == 12) return false;
@@ -58,9 +57,8 @@ public class Dados {
             while (nuevaTirada != 7 && nuevaTirada != dadosValue) {
                 nuevaTirada = tirarDados();
             }
-            victoria = nuevaTirada != 7;
+            return nuevaTirada != 7;
         }
-        return victoria;
     }
 
     public boolean betAny7() {
