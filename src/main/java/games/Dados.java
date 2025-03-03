@@ -53,12 +53,12 @@ public class Dados {
         if (dadosValue == 7 || dadosValue == 11) return true;
         else if (dadosValue == 2 || dadosValue == 3 || dadosValue == 12) return false;
         else {
-            int punto = tirarDados();
+            int punto = dadosValue;
             int nuevaTirada;
             do {
                 nuevaTirada = tirarDados();
             } while (nuevaTirada != 7 && nuevaTirada != punto);
-            return nuevaTirada != 7;
+            return nuevaTirada == punto;
         }
     }
 
