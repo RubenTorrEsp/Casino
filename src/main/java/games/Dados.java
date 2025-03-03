@@ -55,9 +55,9 @@ public class Dados {
         else {
             int punto = tirarDados();
             int nuevaTirada;
-            while (nuevaTirada != 7 && nuevaTirada != dadosValue) {
+            do {
                 nuevaTirada = tirarDados();
-            }
+            } while (nuevaTirada != 7 && nuevaTirada != punto);
             return nuevaTirada != 7;
         }
     }
