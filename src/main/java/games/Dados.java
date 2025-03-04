@@ -48,7 +48,7 @@ public class Dados {
         else System.out.println("Has perdido");
     }
 
-    public boolean betCraps() {
+    public boolean betPassLine() {
         dadosValue = tirarDados();
         if (dadosValue == 7 || dadosValue == 11) return true;
         else if (dadosValue == 2 || dadosValue == 3 || dadosValue == 12) return false;
