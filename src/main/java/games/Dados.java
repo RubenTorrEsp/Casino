@@ -62,6 +62,10 @@ public class Dados {
         }
     }
 
+    public boolean betDontPassLine() {
+
+    }
+
     public boolean betAny7() {
 
         return false;
