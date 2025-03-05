@@ -76,6 +76,10 @@ public class Dados {
         }
     }
 
+    public boolean betComeBet(int punto) {
+
+    }
+
     public boolean betAny7() {
 
         return false;
