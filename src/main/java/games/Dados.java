@@ -77,7 +77,10 @@ public class Dados {
     }
 
     public boolean betComeBet(int punto) {
-
+        int nuevaTirada;
+        do {
+            nuevaTirada = tirarDados();
+        } while (nuevaTirada != 7 && nuevaTirada != punto);
     }
 
     public boolean betAny7() {
