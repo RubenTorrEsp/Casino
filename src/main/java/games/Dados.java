@@ -62,17 +62,18 @@ public class Dados {
         }
     }
 
-    public boolean betDontPassLine() {
+    public int betDontPassLine() {
         dadosValue = tirarDados();
-        if (dadosValue == 7 || dadosValue == 11) return false;
-        else if (dadosValue == 2 || dadosValue == 3 || dadosValue == 12) return true;
+        if (dadosValue == 7 || dadosValue == 11) return -1;
+        else if (dadosValue == 12) return 0;
+        else if (dadosValue == 2 || dadosValue == 3) return 1;
         else {
             int punto = dadosValue;
             int nuevaTirada;
             do {
                 nuevaTirada = tirarDados();
             } while (nuevaTirada != 7 && nuevaTirada != punto);
-            return nuevaTirada != punto;
+            return (nuevaTirada == 7) ? 1 : -1;
         }
     }
 
