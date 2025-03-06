@@ -85,6 +85,10 @@ public class Dados {
         return nuevaTirada == punto;
     }
 
+    public boolean betDontComeBet(int punto) {
+
+    }
+
     public boolean betAny7() {
 
         return false;
