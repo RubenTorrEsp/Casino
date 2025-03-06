@@ -86,7 +86,11 @@ public class Dados {
     }
 
     public boolean betDontComeBet(int punto) {
-
+        int nuevaTirada;
+        do {
+            nuevaTirada = tirarDados();
+        } while (nuevaTirada != 7 && nuevaTirada != punto);
+        return nuevaTirada != punto;
     }
 
     public boolean betAny7() {
