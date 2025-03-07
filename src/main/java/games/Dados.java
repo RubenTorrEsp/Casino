@@ -68,14 +68,8 @@ public class Dados {
         if (dadosValue == 7 || dadosValue == 11) return -1;
         else if (dadosValue == 12) return 0;
         else if (dadosValue == 2 || dadosValue == 3) return 1;
-        else {
-            int punto = dadosValue;
-            int nuevaTirada;
-            do {
-                nuevaTirada = tirarDados();
-            } while (nuevaTirada != 7 && nuevaTirada != punto);
-            return (nuevaTirada == 7) ? 1 : -1;
-        }
+        else if (betDontComeBet(dadosValue)) return 1;
+        else return 0;
     }
 
     public boolean betDontComeBet(int punto) {
