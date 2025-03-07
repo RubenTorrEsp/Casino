@@ -52,14 +52,15 @@ public class Dados {
         dadosValue = tirarDados();
         if (dadosValue == 7 || dadosValue == 11) return true;
         else if (dadosValue == 2 || dadosValue == 3 || dadosValue == 12) return false;
-        else {
-            int punto = dadosValue;
-            int nuevaTirada;
-            do {
-                nuevaTirada = tirarDados();
-            } while (nuevaTirada != 7 && nuevaTirada != punto);
-            return nuevaTirada == punto;
-        }
+        else return betComeBet(dadosValue);
+    }
+
+    public boolean betComeBet(int punto) {
+        int nuevaTirada;
+        do {
+            nuevaTirada = tirarDados();
+        } while (nuevaTirada != 7 && nuevaTirada != punto);
+        return nuevaTirada == punto;
     }
 
     public int betDontPassLine() {
@@ -75,14 +76,6 @@ public class Dados {
             } while (nuevaTirada != 7 && nuevaTirada != punto);
             return (nuevaTirada == 7) ? 1 : -1;
         }
-    }
-
-    public boolean betComeBet(int punto) {
-        int nuevaTirada;
-        do {
-            nuevaTirada = tirarDados();
-        } while (nuevaTirada != 7 && nuevaTirada != punto);
-        return nuevaTirada == punto;
     }
 
     public boolean betDontComeBet(int punto) {
