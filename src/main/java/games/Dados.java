@@ -48,6 +48,7 @@ public class Dados {
         else System.out.println("Has perdido");
     }
 
+    // TODO: REVISION
     public boolean betPassLine() {
         dadosValue = tirarDados();
         if (dadosValue == 7 || dadosValue == 11) return true;
@@ -55,6 +56,7 @@ public class Dados {
         else return betComeBet(dadosValue);
     }
 
+    // TODO: REVISION
     public boolean betComeBet(int punto) {
         int nuevaTirada;
         do {
@@ -68,8 +70,7 @@ public class Dados {
         if (dadosValue == 7 || dadosValue == 11) return -1;
         else if (dadosValue == 12) return 0;
         else if (dadosValue == 2 || dadosValue == 3) return 1;
-        else if (betDontComeBet(dadosValue)) return 1;
-        else return 0;
+        return betDontComeBet(dadosValue) ? 1 : 0;
     }
 
     public boolean betDontComeBet(int punto) {
@@ -77,7 +78,7 @@ public class Dados {
         do {
             nuevaTirada = tirarDados();
         } while (nuevaTirada != 7 && nuevaTirada != punto);
-        return nuevaTirada != punto;
+        return nuevaTirada == 7;
     }
 
     public boolean betAny7() {
