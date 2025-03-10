@@ -81,8 +81,31 @@ public class Dados {
         return nuevaTirada == 7;
     }
 
-    public boolean betOddsBets(){
+    public double betOddsBet(int punto, boolean isPassLine, double betAmount) {
+        int nuevaTirada;
 
+        // Se sigue tirando hasta que salga el punto o el 7
+        do {
+            nuevaTirada = tirarDados();
+        } while (nuevaTirada != 7 && nuevaTirada != punto);
+
+        // Determinar si ganó la apuesta
+        boolean gano = (isPassLine && nuevaTirada == punto) || (!isPassLine && nuevaTirada == 7);
+
+        // Calcular el pago según el punto
+        double payoutMultiplier = getOddsPayout(punto);
+
+        return gano ? betAmount * payoutMultiplier : -betAmount;
+    }
+
+    // Método auxiliar para determinar el pago de la apuesta Odds
+    private double getOddsPayout(int punto) {
+        switch (punto) {
+            case 4: case 10: return 2.0;  // Paga 2 a 1
+            case 5: case 9:  return 1.5;  // Paga 3 a 2
+            case 6: case 8:  return 1.2;  // Paga 6 a 5
+            default: return 0; // No debería ocurrir, pero por seguridad
+        }
     }
 
     public boolean betAny7() {
