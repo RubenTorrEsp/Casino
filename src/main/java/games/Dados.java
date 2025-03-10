@@ -84,15 +84,12 @@ public class Dados {
     public double betOddsBet(int punto, boolean isPassLine, double betAmount) {
         int nuevaTirada;
 
-        // Se sigue tirando hasta que salga el punto o el 7
         do {
             nuevaTirada = tirarDados();
         } while (nuevaTirada != 7 && nuevaTirada != punto);
 
-        // Determinar si ganó la apuesta
         boolean gano = (isPassLine && nuevaTirada == punto) || (!isPassLine && nuevaTirada == 7);
 
-        // Calcular el pago según el punto
         double payoutMultiplier = getOddsPayout(punto);
 
         return gano ? betAmount * payoutMultiplier : -betAmount;
