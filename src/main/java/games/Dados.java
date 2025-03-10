@@ -81,6 +81,10 @@ public class Dados {
         return nuevaTirada == 7;
     }
 
+    public boolean betOddsBets(){
+
+    }
+
     public boolean betAny7() {
 
         return false;
