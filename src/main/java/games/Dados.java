@@ -89,9 +89,7 @@ public class Dados {
         } while (nuevaTirada != 7 && nuevaTirada != punto);
 
         boolean gano = (isPassLine && nuevaTirada == punto) || (!isPassLine && nuevaTirada == 7);
-
         double payoutMultiplier = getOddsPayout(punto);
-
         return gano ? betAmount * payoutMultiplier : -betAmount;
     }
 
@@ -104,6 +102,8 @@ public class Dados {
             default: return 0; // No debería ocurrir, pero por seguridad
         }
     }
+
+
 
     public boolean betAny7() {
 
