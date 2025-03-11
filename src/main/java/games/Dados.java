@@ -103,7 +103,9 @@ public class Dados {
         }
     }
 
+    private boolean betPlaceBets() {
 
+    }
 
     public boolean betAny7() {
 
