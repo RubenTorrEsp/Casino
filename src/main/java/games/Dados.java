@@ -103,8 +103,12 @@ public class Dados {
         }
     }
 
-    private boolean betPlaceBets() {
-
+    private boolean betPlaceBets(int numero) {
+        int nuevaTirada;
+        do {
+            nuevaTirada = tirarDados();
+        } while (nuevaTirada != 7 && nuevaTirada != numero);
+        return nuevaTirada == numero;
     }
 
     public boolean betAny7() {
