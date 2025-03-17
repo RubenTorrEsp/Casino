@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e926a721-1e80-4da7-b754-441884e1f532" name="Changes" comment="Texto de apuesta específica añadido al método">
+    <list default="true" id="e926a721-1e80-4da7-b754-441884e1f532" name="Changes" comment="Apuesta Place Bets completada">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/games/Dados.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/games/Dados.java" afterDir="false" />
     </list>
@@ -418,7 +418,7 @@
       <option name="project" value="LOCAL" />
       <updated>1682357772150</updated>
     </task>
-    <option name="localTasksCounter" value="147" />
+    <option name="localTasksCounter" value="182" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -433,31 +433,31 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Creacion del user en la clase Dados" />
-    <MESSAGE value="Creacion del saldo de ahorros en la clase Dados" />
-    <MESSAGE value="Importación del Scanner" />
-    <MESSAGE value="Iniciador de apuesta" />
-    <MESSAGE value="Iniciador del valor de los dados" />
-    <MESSAGE value="Creacion del método tirarDados" />
-    <MESSAGE value="Eliminacion de espaciado final" />
-    <MESSAGE value="Mensaje de Bienvenida al juego" />
-    <MESSAGE value="Creacion e instanciacion del Scanner" />
-    <MESSAGE value="Creacion e instanciacion de los textos" />
-    <MESSAGE value="Texto de solicitud de cantidad a apostar" />
-    <MESSAGE value="Conversión de la entrada por consola en apuesta" />
-    <MESSAGE value="Inicio de la apuesta" />
-    <MESSAGE value="Desarrollo de la apuesta" />
-    <MESSAGE value="Tirada de dados" />
-    <MESSAGE value="Comparativa" />
-    <MESSAGE value="Creacion del metodo booleano isAny7, de cara a implementar las apuestas reales" />
-    <MESSAGE value="Creacion del metodo booleano betEspecific, de cara a implementar las apuestas reales" />
-    <MESSAGE value="Creacion del metodo booleano betHornBet, de cara a implementar las apuestas reales" />
-    <MESSAGE value="Establecimiento del valor de dados" />
-    <MESSAGE value="Arreglo del metodo tirarDados" />
-    <MESSAGE value="Metodo de lanzamiento de dados estático" />
-    <MESSAGE value="Metodo betEspecific completado" />
-    <MESSAGE value="Eliminación del resultado" />
-    <MESSAGE value="Texto de apuesta específica añadido al método" />
-    <option name="LAST_COMMIT_MESSAGE" value="Texto de apuesta específica añadido al método" />
+    <MESSAGE value="Inicio de la fase del punto" />
+    <MESSAGE value="Desarrollo de la fase del punto" />
+    <MESSAGE value="Bucle de tirada hasta que la tirada es 7 o dadosValue" />
+    <MESSAGE value="resolucion de la apuesta" />
+    <MESSAGE value="Simplificacion de los returns" />
+    <MESSAGE value="Division de punto y nuevaTirada" />
+    <MESSAGE value="Sustitución de la estructura while por do-while" />
+    <MESSAGE value="Cambio del return por comparativa entre nuevaTirada y punto" />
+    <MESSAGE value="Renombrado de la apuesta Pass Line" />
+    <MESSAGE value="Creacion de la apuesta Dont Pass Line" />
+    <MESSAGE value="Desarrollo completo de la apuesta Dont Pass Line" />
+    <MESSAGE value="Creacion de la apuesta Come Bet" />
+    <MESSAGE value="Desarrollo de la apuesta Come Bet" />
+    <MESSAGE value="Return de la apuesta Come Bet" />
+    <MESSAGE value="Arreglo de la apuesta dont pass line para que el 12 devuelva empate" />
+    <MESSAGE value="Creacion de la apuesta betDontComeBet" />
+    <MESSAGE value="Combinación de las apuestas PassLine y ComeBet" />
+    <MESSAGE value="Combinación de las apuestas DontPassLine y DontComeBet" />
+    <MESSAGE value="Añadido de los TODOs" />
+    <MESSAGE value="Creacion de la apuesta Odds Bets" />
+    <MESSAGE value="Desarrollo de la apuesta Odds Bets" />
+    <MESSAGE value="Eliminacion de los comentarios" />
+    <MESSAGE value="Limpieza del metodo" />
+    <MESSAGE value="Creacion de la apuesta Place Bets" />
+    <MESSAGE value="Apuesta Place Bets completada" />
+    <option name="LAST_COMMIT_MESSAGE" value="Apuesta Place Bets completada" />
   </component>
 </project>
