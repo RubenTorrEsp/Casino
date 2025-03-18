@@ -110,4 +110,8 @@ public class Roulette {
         else System.out.println("Has perdido, ahora tienes " + (ahorros - money) + " euros.");
     }
 
+    public void betPass(){
+
+    }
+
 }
