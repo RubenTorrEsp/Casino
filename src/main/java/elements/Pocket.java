@@ -22,9 +22,7 @@ public class Pocket {
         return blackNumbers.contains(number);
     }
 
-    public Boolean isPair(int number){
-        return number % 2 == 0;
-    }
+    public Boolean isPair(int number){ return number % 2 == 0; }
 
     public Boolean isPass(int number){
         return number >= 18;
