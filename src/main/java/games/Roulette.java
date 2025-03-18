@@ -111,7 +111,26 @@ public class Roulette {
     }
 
     public void betPass(){
+        System.out.println("Elige un valor entre PASA y FALTA");
+        String selection = scanner.nextLine().toLowerCase(Locale.ROOT);
+        Boolean userNumberIsPass = null;
+        switch (selection){
+            case "pasa" -> userNumberIsPass = true;
+            case "falta" -> userNumberIsPass = false;
+            default -> System.out.println(texts.notAvailable);
+        }
 
+        int winnerNumber = pocket.newLaunch();
+        Boolean winnerNumberIsPair = pocket.isPair(winnerNumber);
+
+//        if(winnerNumberIsPair) System.out.println("El número que ha salido es el "+winnerNumber+" y es PAR");
+//        else System.out.println("El número que ha salido es el "+winnerNumber+" y es IMPAR");
+//
+//        if(userNumberIsPass == winnerNumberIsPair) {
+//            System.out.println("Has ganado, ahora tienes " + (ahorros + money) + " euros.");
+//        }
+//        else if(userNumberIsPass == null);
+//        else System.out.println("Has perdido, ahora tienes " + (ahorros - money) + " euros.");
     }
 
 }
