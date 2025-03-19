@@ -123,8 +123,8 @@ public class Roulette {
         int winnerNumber = pocket.newLaunch();
         Boolean winnerNumberIsPass = pocket.isPass(winnerNumber);
 
-//        if(winnerNumberIsPair) System.out.println("El número que ha salido es el "+winnerNumber+" y es PAR");
-//        else System.out.println("El número que ha salido es el "+winnerNumber+" y es IMPAR");
+        if(winnerNumberIsPass) System.out.println("El número que ha salido es el "+winnerNumber+" y es PASA");
+        else System.out.println("El número que ha salido es el "+winnerNumber+" y es FALTA");
 //
 //        if(userNumberIsPass == winnerNumberIsPair) {
 //            System.out.println("Has ganado, ahora tienes " + (ahorros + money) + " euros.");
