@@ -121,7 +121,7 @@ public class Roulette {
         }
 
         int winnerNumber = pocket.newLaunch();
-        Boolean winnerNumberIsPair = pocket.isPair(winnerNumber);
+        Boolean winnerNumberIsPair = pocket.isPass(winnerNumber);
 
 //        if(winnerNumberIsPair) System.out.println("El número que ha salido es el "+winnerNumber+" y es PAR");
 //        else System.out.println("El número que ha salido es el "+winnerNumber+" y es IMPAR");
