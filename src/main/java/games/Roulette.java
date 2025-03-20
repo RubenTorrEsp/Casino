@@ -84,7 +84,6 @@ public class Roulette {
         }
         else if(userNumberIsBlack == null);
         else System.out.println("Has perdido, ahora tienes " + (ahorros - money) + " euros.");
-                    ;
     }
 
     public void betPair(){
