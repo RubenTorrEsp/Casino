@@ -35,6 +35,7 @@ public class Roulette {
                 case 1 -> betNumber();
                 case 2 -> betColor();
                 case 3 -> betPair();
+                case 4 -> betPass();
                 default -> System.out.println(texts.notAvailable);
             }
         } catch (Exception e) {
