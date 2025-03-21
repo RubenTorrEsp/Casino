@@ -38,10 +38,10 @@ public class Texts {
     public String rouletteWellcome = "Bienvenido a la ruleta del casino";
     public String rouletteBet =
         """
-            ¿Que apuesta quieres realizar?\
-            1. Número\
-            2. Color\
-            3. Par-Impar\
+            ¿Que apuesta quieres realizar?\n\
+            1. Número\n\
+            2. Color\n\
+            3. Par-Impar\n\
             4. Falta-Pasa""";
     public String rouletteChooseNumber = "Elige un número entre 0 y 36: ";
     public String rouletteChooseColor = "Elige un color entre ROJO y NEGRO: ";
