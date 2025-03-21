@@ -6,10 +6,10 @@ public class Texts {
     public String wellcome = "Bienvenido a la app de casino. ¿A qué desea jugar?";
     public String availableGames =
         """
-            0. Salir\
-            1. BlackJack.\
-            2. Carta alta.\
-            3. Ruleta.\
+            0. Salir\n\
+            1. BlackJack.\n\
+            2. Carta alta.\n\
+            3. Ruleta.\n\
             4. Dados.""";
     public String quantityToPlay = "¿Cuanto quieres apostar?";
     public String notImplemented = "Todavía no se puede. Pronto llegará.";
