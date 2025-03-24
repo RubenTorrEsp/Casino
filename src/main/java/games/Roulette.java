@@ -134,7 +134,7 @@ public class Roulette {
     }
 
     public void betColumn(){
-
+        System.out.println("Elige una columna para apostar");
     }
 
 }
