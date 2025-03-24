@@ -77,13 +77,12 @@ public class BlackJack {
         crupierValue = crupierValue + card.getValueCourtCards();
     }
 
-    public void crupierPlays(){
-        while (crupierValue<16){
-            do {
-                crupierNewCard();
-            } while (crupierValue < playerValue);
+    public void crupierPlays() {
+        while (crupierValue < 16) {
+            crupierNewCard();
         }
-        System.out.print(texts.crupierValue(crupierValue));
+        if (crupierValue < playerValue) crupierNewCard();
+        System.out.println(texts.crupierValue(crupierValue));
     }
 
     public void checkVictory(){
