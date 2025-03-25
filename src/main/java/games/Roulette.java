@@ -143,6 +143,7 @@ public class Roulette {
             case "3" -> userColumn = "3";
             default -> System.out.println(texts.notAvailable);
         }
+        int columna = pocket.newLaunch()%3;
     }
 
 }
