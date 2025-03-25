@@ -135,6 +135,14 @@ public class Roulette {
 
     public void betColumn(){
         System.out.println("Elige una columna para apostar");
+        String selection = scanner.nextLine().toLowerCase(Locale.ROOT);
+        String userColumn = "";
+        switch (selection){
+            case "1" -> userColumn = "1";
+            case "2" -> userColumn = "2";
+            case "3" -> userColumn = "3";
+            default -> System.out.println(texts.notAvailable);
+        }
     }
 
 }
