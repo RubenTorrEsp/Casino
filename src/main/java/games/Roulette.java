@@ -139,9 +139,9 @@ public class Roulette {
         String selection = scanner.nextLine().toLowerCase(Locale.ROOT);
         String userColumn = "";
         switch (selection){
-            case "1" -> userColumn = "1";
-            case "2" -> userColumn = "2";
-            case "3" -> userColumn = "3";
+            case "1" -> userColumn = "2";
+            case "2" -> userColumn = "1";
+            case "3" -> userColumn = "0";
             default -> System.out.println(texts.notAvailable);
         }
         int columna = pocket.newLaunch()%3;
