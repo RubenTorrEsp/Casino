@@ -5,6 +5,7 @@ import utils.Texts;
 import utils.User;
 
 import java.util.Locale;
+import java.util.Objects;
 import java.util.Scanner;
 
 public class Roulette {
@@ -148,6 +149,11 @@ public class Roulette {
         if (columna==2) System.out.println("La bolita ha caido en la primera columna");
         else if (columna==1) System.out.println("La bolita ha caido en la segunda columna");
         else if (columna==0) System.out.println("La bolita ha caido en la tercera columna");
+
+        if(Objects.equals(userColumn, String.valueOf(columna))) {
+            System.out.println("Has GANADO");
+            ahorros = ahorros + money*3;
+        }
     }
 
 }
