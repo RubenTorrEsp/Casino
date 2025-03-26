@@ -145,6 +145,9 @@ public class Roulette {
             default -> System.out.println(texts.notAvailable);
         }
         int columna = pocket.newLaunch()%3;
+        if (columna==2) System.out.println("La bolita ha caido en la primera columna");
+        else if (columna==1) System.out.println("La bolita ha caido en la segunda columna");
+        else if (columna==0) System.out.println("La bolita ha caido en la tercera columna");
     }
 
 }
