@@ -37,6 +37,7 @@ public class Roulette {
                 case 2 -> betColor();
                 case 3 -> betPair();
                 case 4 -> betPass();
+                case 5 -> betColumn();
                 default -> System.out.println(texts.notAvailable);
             }
         } catch (Exception e) {
@@ -135,6 +136,7 @@ public class Roulette {
     }
 
     // TODO: Completar
+    // TODO: Revisar la cantidad en caso de victoria
     public void betColumn(){
         System.out.println("Elige una columna para apostar");
         String selection = scanner.nextLine().toLowerCase(Locale.ROOT);
@@ -151,8 +153,7 @@ public class Roulette {
         else if (columna==0) System.out.println("La bolita ha caido en la tercera columna");
 
         if(Objects.equals(userColumn, String.valueOf(columna))) {
-            System.out.println("Has GANADO");
-            ahorros = ahorros + money*3;
+            System.out.println("Has ganado, ahora tienes " + (ahorros + money*2) + " euros.");
         }
     }
 
