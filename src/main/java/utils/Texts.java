@@ -42,7 +42,8 @@ public class Texts {
             1. Número\n\
             2. Color\n\
             3. Par-Impar\n\
-            4. Falta-Pasa""";
+            4. Falta-Pasa\n\
+            5. Columna""";
     public String rouletteChooseNumber = "Elige un número entre 0 y 36: ";
     public String rouletteChooseColor = "Elige un color entre ROJO y NEGRO: ";
     public String rouletteChoosePair = "Elige una paridad entre PAR o IMPAR: ";
