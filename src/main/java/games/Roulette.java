@@ -136,7 +136,6 @@ public class Roulette {
     }
 
     // TODO: Completar
-    // TODO: Revisar la cantidad en caso de victoria
     public void betColumn(){
         System.out.println("Elige una columna para apostar");
         String selection = scanner.nextLine().toLowerCase(Locale.ROOT);
