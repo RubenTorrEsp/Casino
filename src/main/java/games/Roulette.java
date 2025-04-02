@@ -135,6 +135,7 @@ public class Roulette {
         else System.out.println("Has perdido, ahora tienes " + (ahorros - money) + " euros.");
     }
 
+    // TODO: Revisar el calculo de la columna
     public void betColumn(){
         System.out.println("Elige una columna para apostar");
         String selection = scanner.nextLine().toLowerCase(Locale.ROOT);
@@ -145,8 +146,9 @@ public class Roulette {
             case "3" -> userColumn = "0";
             default -> System.out.println(texts.notAvailable);
         }
-        int columna = pocket.newLaunch()%3;
-        System.out.println("Ha salido el numero "+columna);
+        int numero = pocket.newLaunch();
+        int columna = 1+numero%3;
+        System.out.println("Ha salido el numero "+numero);
         if (columna==2) System.out.println("La bolita ha caido en la primera columna");
         else if (columna==1) System.out.println("La bolita ha caido en la segunda columna");
         else if (columna==0) System.out.println("La bolita ha caido en la tercera columna");
