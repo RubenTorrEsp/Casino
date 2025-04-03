@@ -141,15 +141,18 @@ public class Roulette {
         String selection = scanner.nextLine().toLowerCase(Locale.ROOT);
         String userColumn = "";
         switch (selection){
-            case "1" -> userColumn = "2";
-            case "2" -> userColumn = "1";
+            case "1" -> userColumn = "1";
+            case "2" -> userColumn = "2";
             case "3" -> userColumn = "0";
             default -> System.out.println(texts.notAvailable);
         }
         int numero = pocket.newLaunch();
-        int columna = 1+numero%3;
+        int columna = numero%3;
+
         System.out.println("Ha salido el numero "+numero);
-        System.out.println("La bolita ha caido en la columna "+columna);
+
+        if(columna!=0) System.out.println("La bolita ha caido en la columna "+columna);
+        else System.out.println("La bolita ha caido en la columna 3");
 
         if(Objects.equals(userColumn, String.valueOf(columna))) System.out.println("Has ganado, ahora tienes " + (ahorros + money*2) + " euros.");
         else System.out.println("Has perdido, ahora tienes " + (ahorros - money) + " euros.");
