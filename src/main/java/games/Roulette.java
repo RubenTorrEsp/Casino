@@ -135,7 +135,6 @@ public class Roulette {
         else System.out.println("Has perdido, ahora tienes " + (ahorros - money) + " euros.");
     }
 
-    // TODO: Calculo de columna
     public void betColumn(){
         System.out.println("Elige una columna para apostar");
         String selection = scanner.nextLine().toLowerCase(Locale.ROOT);
