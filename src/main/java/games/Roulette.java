@@ -139,12 +139,14 @@ public class Roulette {
         System.out.println("Elige una columna para apostar");
         String selection = scanner.nextLine().toLowerCase(Locale.ROOT);
         String userColumn = "";
-        switch (selection){
-            case "1" -> userColumn = "1";
-            case "2" -> userColumn = "2";
-            case "3" -> userColumn = "0";
-            default -> System.out.println(texts.notAvailable);
-        }
+        userColumn = switch (selection) {
+            case "1", "2" -> selection;
+            case "3" -> "0";
+            default -> {
+                System.out.println(texts.notAvailable);
+                yield null;
+            }
+        };
         int numero = pocket.newLaunch();
         int columna = numero%3;
 
