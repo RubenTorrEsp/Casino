@@ -150,9 +150,6 @@ public class Roulette {
 
         System.out.println("Ha salido el numero "+numero);
 
-        if(columna!=0) System.out.println("La bolita ha caido en la columna "+columna);
-        else System.out.println("La bolita ha caido en la columna 3");
-
         if(Objects.equals(userColumn, String.valueOf(columna))) System.out.println("Has ganado, ahora tienes " + (ahorros + money*2) + " euros.");
         else System.out.println("Has perdido, ahora tienes " + (ahorros - money) + " euros.");
     }
