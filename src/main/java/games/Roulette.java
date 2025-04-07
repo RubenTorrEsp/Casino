@@ -156,6 +156,7 @@ public class Roulette {
     }
 
     public void betDozen() {
-
+        System.out.println("Elige una docena para apostar");
+        String selection = scanner.nextLine().toLowerCase(Locale.ROOT);
     }
 }
