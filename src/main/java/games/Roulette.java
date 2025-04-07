@@ -158,5 +158,12 @@ public class Roulette {
     public void betDozen() {
         System.out.println("Elige una docena para apostar");
         String selection = scanner.nextLine().toLowerCase(Locale.ROOT);
+        String userDozen = switch (selection) {
+            case "1", "2", "3" -> selection;
+            default -> {
+                System.out.println(texts.notAvailable);
+                yield null;
+            }
+        };
     }
 }
