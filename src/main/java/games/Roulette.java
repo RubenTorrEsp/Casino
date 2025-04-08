@@ -169,5 +169,8 @@ public class Roulette {
         String numberDozen = String.valueOf((numero - 1) / 12 + 1);
 
         System.out.println("Ha salido el numero "+numero);
+
+        if(Objects.equals(userDozen, numberDozen)) System.out.println("Has ganado, ahora tienes " + (ahorros + money*2) + " euros.");
+        else System.out.println("Has perdido, ahora tienes " + (ahorros - money) + " euros.");
     }
 }
