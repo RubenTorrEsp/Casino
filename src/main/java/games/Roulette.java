@@ -165,5 +165,7 @@ public class Roulette {
                 yield null;
             }
         };
+        int numero = pocket.newLaunch();
+        String numberDozen = String.valueOf((numero - 1) / 12 + 1);
     }
 }
