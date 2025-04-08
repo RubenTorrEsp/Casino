@@ -167,5 +167,7 @@ public class Roulette {
         };
         int numero = pocket.newLaunch();
         String numberDozen = String.valueOf((numero - 1) / 12 + 1);
+
+        System.out.println("Ha salido el numero "+numero);
     }
 }
