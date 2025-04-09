@@ -170,7 +170,7 @@ public class Roulette {
 
         System.out.println("Ha salido el numero "+numero);
 
-        if(userDozen == numberDozen) System.out.println("Has ganado, ahora tienes " + (ahorros + money*2) + " euros.");
+        if(Objects.equals(userDozen, numberDozen)) System.out.println("Has ganado, ahora tienes " + (ahorros + money*2) + " euros.");
         else System.out.println("Has perdido, ahora tienes " + (ahorros - money) + " euros.");
     }
 }
