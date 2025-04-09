@@ -173,4 +173,8 @@ public class Roulette {
         if(Objects.equals(userDozen, numberDozen)) System.out.println("Has ganado, ahora tienes " + (ahorros + money*2) + " euros.");
         else System.out.println("Has perdido, ahora tienes " + (ahorros - money) + " euros.");
     }
+
+    public void betFile() {
+
+    }
 }
