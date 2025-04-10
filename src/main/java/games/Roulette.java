@@ -185,5 +185,7 @@ public class Roulette {
                 yield null;
             }
         };
+        int numero = pocket.newLaunch();
+        String numberFile = String.valueOf((numero - 1) / 3 + 1);
     }
 }
