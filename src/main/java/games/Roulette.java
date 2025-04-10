@@ -176,6 +176,7 @@ public class Roulette {
     }
 
     public void betFile() {
-
+        System.out.println("Elige una fila para apostar");
+        String selection = scanner.nextLine().toLowerCase(Locale.ROOT);
     }
 }
