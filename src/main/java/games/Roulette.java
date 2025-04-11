@@ -187,5 +187,9 @@ public class Roulette {
         };
         int numero = pocket.newLaunch();
         String numberFile = String.valueOf((numero - 1) / 3 + 1);
+
+        System.out.println("Ha salido el numero "+numero);
+
+
     }
 }
