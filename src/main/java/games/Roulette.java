@@ -110,7 +110,6 @@ public class Roulette {
         if(userNumberIsPair == winnerNumberIsPair) {
             System.out.println("Has ganado, ahora tienes " + (ahorros + money) + " euros.");
         }
-        else if(userNumberIsPair == null);
         else System.out.println("Has perdido, ahora tienes " + (ahorros - money) + " euros.");
     }
 
