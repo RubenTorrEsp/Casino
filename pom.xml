@@ -15,26 +15,35 @@
     </properties>
 
     <dependencies>
-        <!-- Dependencia principal de Hibernate -->
+<!--        &lt;!&ndash; Dependencia principal de Hibernate &ndash;&gt;-->
+<!--        <dependency>-->
+<!--            <groupId>org.hibernate</groupId>-->
+<!--            <artifactId>hibernate-core</artifactId>-->
+<!--            <version>{versión de Hibernate}</version>-->
+<!--        </dependency>-->
+
+<!--        &lt;!&ndash; Dependencia para usar Hibernate con JPA &ndash;&gt;-->
+<!--        <dependency>-->
+<!--            <groupId>org.hibernate</groupId>-->
+<!--            <artifactId>hibernate-entitymanager</artifactId>-->
+<!--            <version>{versión de Hibernate}</version>-->
+<!--        </dependency>-->
+
+<!--        &lt;!&ndash; Dependencia para usar el proveedor de conexión a la base de datos de MySQL &ndash;&gt;-->
+<!--        <dependency>-->
+<!--            <groupId>mysql</groupId>-->
+<!--            <artifactId>mysql-connector-java</artifactId>-->
+<!--            <version>{versión de MySQL Connector/J}</version>-->
+<!--        </dependency>-->
+
+        <!-- Dependencia para usar Lombok -->
         <dependency>
-            <groupId>org.hibernate</groupId>
-            <artifactId>hibernate-core</artifactId>
-            <version>{versión de Hibernate}</version>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <version>1.18.30</version> <!-- Usa la última versión disponible -->
+            <scope>provided</scope>
         </dependency>
 
-        <!-- Dependencia para usar Hibernate con JPA -->
-        <dependency>
-            <groupId>org.hibernate</groupId>
-            <artifactId>hibernate-entitymanager</artifactId>
-            <version>{versión de Hibernate}</version>
-        </dependency>
-
-        <!-- Dependencia para usar el proveedor de conexión a la base de datos de MySQL -->
-        <dependency>
-            <groupId>mysql</groupId>
-            <artifactId>mysql-connector-java</artifactId>
-            <version>{versión de MySQL Connector/J}</version>
-        </dependency>
     </dependencies>
 
 </project>
