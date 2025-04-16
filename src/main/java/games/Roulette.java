@@ -45,7 +45,6 @@ public class Roulette {
         } catch (Exception e) {
             System.out.println(texts.notValidValue(selection));
         }
-
     }
 
     public void betNumber(){
