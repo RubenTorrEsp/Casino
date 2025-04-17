@@ -2,6 +2,14 @@ package utils;
 
 public class Texts {
 
+    //Victory texts
+    public void victoryText (int apuesta) {
+        System.out.println("Has ganado, ahora tienes " + apuesta + " euros.");
+    }
+    public void defeatText (int apuesta) {
+        System.out.println("Has perdido, ahora tienes " + apuesta + " euros.");
+    }
+
     //General texts
     public String wellcome = "Bienvenido a la app de casino. ¿A qué desea jugar?";
     public String availableGames =
