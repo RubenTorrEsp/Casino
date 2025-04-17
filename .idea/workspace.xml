@@ -4,21 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e926a721-1e80-4da7-b754-441884e1f532" name="Changes" comment="Apuesta Place Bets completada">
+    <list default="true" id="e623f34a-fb8d-4c6d-8009-738edd60040a" name="Changes" comment="Creacion de la apuesta caballo">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/games/Dados.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/games/Dados.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Class" />
-      </list>
-    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -35,429 +27,134 @@
     &quot;accountId&quot;: &quot;7c37caaf-a4d4-428f-a57a-64f1a179495f&quot;
   }
 }</component>
-  <component name="MarkdownSettingsMigration">
-    <option name="stateVersion" value="1" />
-  </component>
   <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
   &quot;associatedIndex&quot;: 0
 }</component>
-  <component name="ProjectId" id="2M40BjBz0BuYAX0SC5XHPpTGDaf" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
-    <ConfirmationsSetting value="2" id="Add" />
-  </component>
+  <component name="ProjectId" id="2viTt3ZLhTQ3R5EpGd1tIk56p2h" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
-    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RecentsManager">
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="games" />
-    </key>
-  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="e926a721-1e80-4da7-b754-441884e1f532" name="Changes" comment="" />
-      <created>1677011413913</created>
+      <changelist id="e623f34a-fb8d-4c6d-8009-738edd60040a" name="Changes" comment="" />
+      <created>1744627107110</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1677011413913</updated>
+      <updated>1744627107110</updated>
     </task>
-    <task id="LOCAL-00037" summary="Limpieza del codigo">
-      <created>1679087177656</created>
-      <option name="number" value="00037" />
-      <option name="presentableId" value="LOCAL-00037" />
+    <task id="LOCAL-00001" summary="Eliminacion de codigo no usado">
+      <option name="closed" value="true" />
+      <created>1744627396061</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
       <option name="project" value="LOCAL" />
-      <updated>1679087177656</updated>
+      <updated>1744627396061</updated>
     </task>
-    <task id="LOCAL-00038" summary="Modificación de textos">
-      <created>1679087438544</created>
-      <option name="number" value="00038" />
-      <option name="presentableId" value="LOCAL-00038" />
+    <task id="LOCAL-00002" summary="Añadido del saldo al jugador">
+      <option name="closed" value="true" />
+      <created>1744627537784</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
       <option name="project" value="LOCAL" />
-      <updated>1679087438544</updated>
+      <updated>1744627537784</updated>
     </task>
-    <task id="LOCAL-00039" summary="Modificación de textos">
-      <created>1679088845895</created>
-      <option name="number" value="00039" />
-      <option name="presentableId" value="LOCAL-00039" />
+    <task id="LOCAL-00003" summary="Constructo para la clase del jugador">
+      <option name="closed" value="true" />
+      <created>1744627882214</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
       <option name="project" value="LOCAL" />
-      <updated>1679088845895</updated>
+      <updated>1744627882214</updated>
     </task>
-    <task id="LOCAL-00040" summary="Modificación del juego BlackJack">
-      <created>1679088874659</created>
-      <option name="number" value="00040" />
-      <option name="presentableId" value="LOCAL-00040" />
+    <task id="LOCAL-00004" summary="Añadido lombok Data a la clase Player">
+      <option name="closed" value="true" />
+      <created>1744716827458</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
       <option name="project" value="LOCAL" />
-      <updated>1679088874659</updated>
+      <updated>1744716827458</updated>
     </task>
-    <task id="LOCAL-00041" summary="Modificación del juego BlackJack">
-      <created>1679342503028</created>
-      <option name="number" value="00041" />
-      <option name="presentableId" value="LOCAL-00041" />
+    <task id="LOCAL-00005" summary="Añadido lombok Builder a la clase Player">
+      <option name="closed" value="true" />
+      <created>1744716876758</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
       <option name="project" value="LOCAL" />
-      <updated>1679342503028</updated>
+      <updated>1744716876758</updated>
     </task>
-    <task id="LOCAL-00042" summary="Modificación del main">
-      <created>1679342518630</created>
-      <option name="number" value="00042" />
-      <option name="presentableId" value="LOCAL-00042" />
+    <task id="LOCAL-00006" summary="Añadida dependencia de lombok">
+      <option name="closed" value="true" />
+      <created>1744716894064</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
       <option name="project" value="LOCAL" />
-      <updated>1679342518630</updated>
+      <updated>1744716894064</updated>
     </task>
-    <task id="LOCAL-00043" summary="Modificación del texto">
-      <created>1679343523071</created>
-      <option name="number" value="00043" />
-      <option name="presentableId" value="LOCAL-00043" />
+    <task id="LOCAL-00007" summary="Modificacion de la clase Player">
+      <option name="closed" value="true" />
+      <created>1744789237926</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
       <option name="project" value="LOCAL" />
-      <updated>1679343523071</updated>
+      <updated>1744789237927</updated>
     </task>
-    <task id="LOCAL-00044" summary="Creacion del juego carta alta">
-      <created>1679343542177</created>
-      <option name="number" value="00044" />
-      <option name="presentableId" value="LOCAL-00044" />
+    <task id="LOCAL-00008" summary="Modificacion de la clase Roulette">
+      <option name="closed" value="true" />
+      <created>1744789252661</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
       <option name="project" value="LOCAL" />
-      <updated>1679343542177</updated>
+      <updated>1744789252661</updated>
     </task>
-    <task id="LOCAL-00045" summary="Creacion del juego carta alta">
-      <created>1679422469235</created>
-      <option name="number" value="00045" />
-      <option name="presentableId" value="LOCAL-00045" />
+    <task id="LOCAL-00009" summary="Añadido de apuestas en el texto de la ruleta">
+      <option name="closed" value="true" />
+      <created>1744789278358</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
       <option name="project" value="LOCAL" />
-      <updated>1679422469235</updated>
+      <updated>1744789278358</updated>
     </task>
-    <task id="LOCAL-00046" summary="Modificación del Main">
-      <created>1679422490831</created>
-      <option name="number" value="00046" />
-      <option name="presentableId" value="LOCAL-00046" />
+    <task id="LOCAL-00010" summary="Creacion de la apuesta caballo">
+      <option name="closed" value="true" />
+      <created>1744883357300</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
       <option name="project" value="LOCAL" />
-      <updated>1679422490831</updated>
+      <updated>1744883357300</updated>
     </task>
-    <task id="LOCAL-00047" summary="Modificación del Main">
-      <created>1679428725972</created>
-      <option name="number" value="00047" />
-      <option name="presentableId" value="LOCAL-00047" />
+    <task id="LOCAL-00011" summary="Creacion de la apuesta caballo">
+      <option name="closed" value="true" />
+      <created>1744884086556</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
       <option name="project" value="LOCAL" />
-      <updated>1679428725972</updated>
+      <updated>1744884086556</updated>
     </task>
-    <task id="LOCAL-00048" summary="Modificación del Main">
-      <created>1679431397823</created>
-      <option name="number" value="00048" />
-      <option name="presentableId" value="LOCAL-00048" />
-      <option name="project" value="LOCAL" />
-      <updated>1679431397823</updated>
-    </task>
-    <task id="LOCAL-00049" summary="Modificación del juego BlackJack">
-      <created>1679431641438</created>
-      <option name="number" value="00049" />
-      <option name="presentableId" value="LOCAL-00049" />
-      <option name="project" value="LOCAL" />
-      <updated>1679431641438</updated>
-    </task>
-    <task id="LOCAL-00050" summary="Modificación del juego Carta Alta">
-      <created>1679431658593</created>
-      <option name="number" value="00050" />
-      <option name="presentableId" value="LOCAL-00050" />
-      <option name="project" value="LOCAL" />
-      <updated>1679431658593</updated>
-    </task>
-    <task id="LOCAL-00051" summary="Modificación de la clase texts">
-      <created>1679431673873</created>
-      <option name="number" value="00051" />
-      <option name="presentableId" value="LOCAL-00051" />
-      <option name="project" value="LOCAL" />
-      <updated>1679431673873</updated>
-    </task>
-    <task id="LOCAL-00052" summary="Modificación de la clase texts">
-      <created>1679515115430</created>
-      <option name="number" value="00052" />
-      <option name="presentableId" value="LOCAL-00052" />
-      <option name="project" value="LOCAL" />
-      <updated>1679515115431</updated>
-    </task>
-    <task id="LOCAL-00053" summary="Modificación del juego BlackJack">
-      <created>1679515140973</created>
-      <option name="number" value="00053" />
-      <option name="presentableId" value="LOCAL-00053" />
-      <option name="project" value="LOCAL" />
-      <updated>1679515140973</updated>
-    </task>
-    <task id="LOCAL-00054" summary="Modificación del juego CartaAlta">
-      <created>1679515156409</created>
-      <option name="number" value="00054" />
-      <option name="presentableId" value="LOCAL-00054" />
-      <option name="project" value="LOCAL" />
-      <updated>1679515156409</updated>
-    </task>
-    <task id="LOCAL-00055" summary="Modificación de las clases Card y Main">
-      <created>1679515174378</created>
-      <option name="number" value="00055" />
-      <option name="presentableId" value="LOCAL-00055" />
-      <option name="project" value="LOCAL" />
-      <updated>1679515174378</updated>
-    </task>
-    <task id="LOCAL-00056" summary="Creación del juego Ruleta">
-      <created>1679594131726</created>
-      <option name="number" value="00056" />
-      <option name="presentableId" value="LOCAL-00056" />
-      <option name="project" value="LOCAL" />
-      <updated>1679594131726</updated>
-    </task>
-    <task id="LOCAL-00057" summary="Modificación de los textos">
-      <created>1679594246538</created>
-      <option name="number" value="00057" />
-      <option name="presentableId" value="LOCAL-00057" />
-      <option name="project" value="LOCAL" />
-      <updated>1679594246538</updated>
-    </task>
-    <task id="LOCAL-00058" summary="Modificación del Main">
-      <created>1679594257953</created>
-      <option name="number" value="00058" />
-      <option name="presentableId" value="LOCAL-00058" />
-      <option name="project" value="LOCAL" />
-      <updated>1679594257953</updated>
-    </task>
-    <task id="LOCAL-00059" summary="Creación de la clase Pocket">
-      <created>1679690441732</created>
-      <option name="number" value="00059" />
-      <option name="presentableId" value="LOCAL-00059" />
-      <option name="project" value="LOCAL" />
-      <updated>1679690441733</updated>
-    </task>
-    <task id="LOCAL-00060" summary="Modificacion de la clase Pocket">
-      <created>1679690915804</created>
-      <option name="number" value="00060" />
-      <option name="presentableId" value="LOCAL-00060" />
-      <option name="project" value="LOCAL" />
-      <updated>1679690915804</updated>
-    </task>
-    <task id="LOCAL-00061" summary="Modificacion del juego Ruleta">
-      <created>1679690936655</created>
-      <option name="number" value="00061" />
-      <option name="presentableId" value="LOCAL-00061" />
-      <option name="project" value="LOCAL" />
-      <updated>1679690936655</updated>
-    </task>
-    <task id="LOCAL-00062" summary="Creacion de la clase Pocket">
-      <created>1679934115052</created>
-      <option name="number" value="00062" />
-      <option name="presentableId" value="LOCAL-00062" />
-      <option name="project" value="LOCAL" />
-      <updated>1679934115052</updated>
-    </task>
-    <task id="LOCAL-00063" summary="Modificacion del juego Ruleta">
-      <created>1679934137423</created>
-      <option name="number" value="00063" />
-      <option name="presentableId" value="LOCAL-00063" />
-      <option name="project" value="LOCAL" />
-      <updated>1679934137423</updated>
-    </task>
-    <task id="LOCAL-00064" summary="Modificacion de los texts">
-      <created>1679934154873</created>
-      <option name="number" value="00064" />
-      <option name="presentableId" value="LOCAL-00064" />
-      <option name="project" value="LOCAL" />
-      <updated>1679934154873</updated>
-    </task>
-    <task id="LOCAL-00065" summary="Modificacion de los texts">
-      <created>1680201064298</created>
-      <option name="number" value="00065" />
-      <option name="presentableId" value="LOCAL-00065" />
-      <option name="project" value="LOCAL" />
-      <updated>1680201064298</updated>
-    </task>
-    <task id="LOCAL-00066" summary="Modificacion del juego Ruleta">
-      <created>1680201083236</created>
-      <option name="number" value="00066" />
-      <option name="presentableId" value="LOCAL-00066" />
-      <option name="project" value="LOCAL" />
-      <updated>1680201083237</updated>
-    </task>
-    <task id="LOCAL-00067" summary="Modificacion del juego Ruleta">
-      <created>1680202484199</created>
-      <option name="number" value="00067" />
-      <option name="presentableId" value="LOCAL-00067" />
-      <option name="project" value="LOCAL" />
-      <updated>1680202484199</updated>
-    </task>
-    <task id="LOCAL-00068" summary="Modificacion del juego Ruleta">
-      <created>1680202492927</created>
-      <option name="number" value="00068" />
-      <option name="presentableId" value="LOCAL-00068" />
-      <option name="project" value="LOCAL" />
-      <updated>1680202492927</updated>
-    </task>
-    <task id="LOCAL-00069" summary="Modificacion del juego Ruleta y los texts">
-      <created>1680689000033</created>
-      <option name="number" value="00069" />
-      <option name="presentableId" value="LOCAL-00069" />
-      <option name="project" value="LOCAL" />
-      <updated>1680689000033</updated>
-    </task>
-    <task id="LOCAL-00070" summary="Modificacion del juego Ruleta y los texts">
-      <created>1680877983947</created>
-      <option name="number" value="00070" />
-      <option name="presentableId" value="LOCAL-00070" />
-      <option name="project" value="LOCAL" />
-      <updated>1680877983948</updated>
-    </task>
-    <task id="LOCAL-00071" summary="Modificacion del juego Ruleta y los texts">
-      <created>1680878295783</created>
-      <option name="number" value="00071" />
-      <option name="presentableId" value="LOCAL-00071" />
-      <option name="project" value="LOCAL" />
-      <updated>1680878295783</updated>
-    </task>
-    <task id="LOCAL-00072" summary="Modificacion de las clases de juegos">
-      <created>1681147509926</created>
-      <option name="number" value="00072" />
-      <option name="presentableId" value="LOCAL-00072" />
-      <option name="project" value="LOCAL" />
-      <updated>1681147509926</updated>
-    </task>
-    <task id="LOCAL-00073" summary="Modificacion del main">
-      <created>1681147524778</created>
-      <option name="number" value="00073" />
-      <option name="presentableId" value="LOCAL-00073" />
-      <option name="project" value="LOCAL" />
-      <updated>1681147524778</updated>
-    </task>
-    <task id="LOCAL-00074" summary="Modificacion del pom">
-      <created>1681147542968</created>
-      <option name="number" value="00074" />
-      <option name="presentableId" value="LOCAL-00074" />
-      <option name="project" value="LOCAL" />
-      <updated>1681147542968</updated>
-    </task>
-    <task id="LOCAL-00075" summary="Modificacion de la clase texts">
-      <created>1681147559314</created>
-      <option name="number" value="00075" />
-      <option name="presentableId" value="LOCAL-00075" />
-      <option name="project" value="LOCAL" />
-      <updated>1681147559314</updated>
-    </task>
-    <task id="LOCAL-00076" summary="Creacion de la clase User">
-      <created>1681147583543</created>
-      <option name="number" value="00076" />
-      <option name="presentableId" value="LOCAL-00076" />
-      <option name="project" value="LOCAL" />
-      <updated>1681147583543</updated>
-    </task>
-    <task id="LOCAL-00077" summary="Creacion de la clase User">
-      <created>1681236189368</created>
-      <option name="number" value="00077" />
-      <option name="presentableId" value="LOCAL-00077" />
-      <option name="project" value="LOCAL" />
-      <updated>1681236189368</updated>
-    </task>
-    <task id="LOCAL-00078" summary="Creacion de la clase User">
-      <created>1682015248540</created>
-      <option name="number" value="00078" />
-      <option name="presentableId" value="LOCAL-00078" />
-      <option name="project" value="LOCAL" />
-      <updated>1682015248541</updated>
-    </task>
-    <task id="LOCAL-00079" summary="Modificacion del main">
-      <created>1682015283158</created>
-      <option name="number" value="00079" />
-      <option name="presentableId" value="LOCAL-00079" />
-      <option name="project" value="LOCAL" />
-      <updated>1682015283159</updated>
-    </task>
-    <task id="LOCAL-00080" summary="Modificacion del main">
-      <created>1682016706694</created>
-      <option name="number" value="00080" />
-      <option name="presentableId" value="LOCAL-00080" />
-      <option name="project" value="LOCAL" />
-      <updated>1682016706694</updated>
-    </task>
-    <task id="LOCAL-00081" summary="A">
-      <created>1682017654607</created>
-      <option name="number" value="00081" />
-      <option name="presentableId" value="LOCAL-00081" />
-      <option name="project" value="LOCAL" />
-      <updated>1682017654607</updated>
-    </task>
-    <task id="LOCAL-00082" summary="User añadido al main">
-      <created>1682018521902</created>
-      <option name="number" value="00082" />
-      <option name="presentableId" value="LOCAL-00082" />
-      <option name="project" value="LOCAL" />
-      <updated>1682018521902</updated>
-    </task>
-    <task id="LOCAL-00083" summary="User añadido al juego ruleta">
-      <created>1682018536363</created>
-      <option name="number" value="00083" />
-      <option name="presentableId" value="LOCAL-00083" />
-      <option name="project" value="LOCAL" />
-      <updated>1682018536363</updated>
-    </task>
-    <task id="LOCAL-00084" summary="User añadido al juego Carta Alta">
-      <created>1682357757310</created>
-      <option name="number" value="00084" />
-      <option name="presentableId" value="LOCAL-00084" />
-      <option name="project" value="LOCAL" />
-      <updated>1682357757310</updated>
-    </task>
-    <task id="LOCAL-00085" summary="Modificacion del Main">
-      <created>1682357772150</created>
-      <option name="number" value="00085" />
-      <option name="presentableId" value="LOCAL-00085" />
-      <option name="project" value="LOCAL" />
-      <updated>1682357772150</updated>
-    </task>
-    <option name="localTasksCounter" value="182" />
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State />
-          </value>
-        </entry>
-      </map>
-    </option>
-  </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Inicio de la fase del punto" />
-    <MESSAGE value="Desarrollo de la fase del punto" />
-    <MESSAGE value="Bucle de tirada hasta que la tirada es 7 o dadosValue" />
-    <MESSAGE value="resolucion de la apuesta" />
-    <MESSAGE value="Simplificacion de los returns" />
-    <MESSAGE value="Division de punto y nuevaTirada" />
-    <MESSAGE value="Sustitución de la estructura while por do-while" />
-    <MESSAGE value="Cambio del return por comparativa entre nuevaTirada y punto" />
-    <MESSAGE value="Renombrado de la apuesta Pass Line" />
-    <MESSAGE value="Creacion de la apuesta Dont Pass Line" />
-    <MESSAGE value="Desarrollo completo de la apuesta Dont Pass Line" />
-    <MESSAGE value="Creacion de la apuesta Come Bet" />
-    <MESSAGE value="Desarrollo de la apuesta Come Bet" />
-    <MESSAGE value="Return de la apuesta Come Bet" />
-    <MESSAGE value="Arreglo de la apuesta dont pass line para que el 12 devuelva empate" />
-    <MESSAGE value="Creacion de la apuesta betDontComeBet" />
-    <MESSAGE value="Combinación de las apuestas PassLine y ComeBet" />
-    <MESSAGE value="Combinación de las apuestas DontPassLine y DontComeBet" />
-    <MESSAGE value="Añadido de los TODOs" />
-    <MESSAGE value="Creacion de la apuesta Odds Bets" />
-    <MESSAGE value="Desarrollo de la apuesta Odds Bets" />
-    <MESSAGE value="Eliminacion de los comentarios" />
-    <MESSAGE value="Limpieza del metodo" />
-    <MESSAGE value="Creacion de la apuesta Place Bets" />
-    <MESSAGE value="Apuesta Place Bets completada" />
-    <option name="LAST_COMMIT_MESSAGE" value="Apuesta Place Bets completada" />
+    <MESSAGE value="Eliminacion de codigo no usado" />
+    <MESSAGE value="Añadido del saldo al jugador" />
+    <MESSAGE value="Constructo para la clase del jugador" />
+    <MESSAGE value="Añadido lombok Data a la clase Player" />
+    <MESSAGE value="Añadido lombok Builder a la clase Player" />
+    <MESSAGE value="Añadida dependencia de lombok" />
+    <MESSAGE value="Modificacion de la clase Player" />
+    <MESSAGE value="Modificacion de la clase Roulette" />
+    <MESSAGE value="Añadido de apuestas en el texto de la ruleta" />
+    <MESSAGE value="Creacion de la apuesta caballo" />
+    <option name="LAST_COMMIT_MESSAGE" value="Creacion de la apuesta caballo" />
   </component>
 </project>
