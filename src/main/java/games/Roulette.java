@@ -31,6 +31,7 @@ public class Roulette {
         String selection = scanner.nextLine();
 
         try{
+            int number = pocket.newLaunch();
             userNumber = Integer.parseInt(selection);
             switch (userNumber){
                 case 1 -> betNumber();
@@ -45,10 +46,6 @@ public class Roulette {
         } catch (Exception e) {
             System.out.println(texts.notValidValue(selection));
         }
-    }
-
-    public int lanzamientoDados(){
-        return pocket.newLaunch();
     }
 
     public void betNumber(){
