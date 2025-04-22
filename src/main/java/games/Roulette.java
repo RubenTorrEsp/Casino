@@ -47,6 +47,10 @@ public class Roulette {
         }
     }
 
+    public int lanzamientoDados(){
+        return pocket.newLaunch();
+    }
+
     public void betNumber(){
         System.out.print(texts.rouletteChooseNumber);
         String selection = scanner.nextLine();
